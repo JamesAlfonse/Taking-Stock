@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-Current Hash: <code>QmUvi5mDgv5yK4pSbRkKFLs4tscwhEUhwxody7v7jfW619</code>
+Current Hash, up to Episode 72: <code>QmPDpNCMUm8gqiMBgYQM6EQaSXj9ejHftirRspVYkqm7kc</code>
 </p>
 
 # _Taking Stock_ Community Portal
