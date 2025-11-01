@@ -43,24 +43,25 @@
            not the display title.
          ========================================================= -->
     <title>WhyDRS: Taking Stock</title>
+    <itunes:subtitle>A podcast about self custody in finance.</itunes:subtitle>
 
     <!-- Canonical website for the show (not the feed URL). -->
     <link>https://www.whydrs.org/</link>
 
     <!-- Human-readable summary. Keep concise for apps that truncate.
     Use <![CDATA[]]> if you include HTML. -->
-    <description><![CDATA[
+    <description>
       A podcast about self custody in finance — explainers, interviews,
       and community spotlights from WhyDRS.org.
-    ]]></description>
+    </description>
 
     <!-- Optional long-form summary specifically for Apple. It can be
          longer than <description> and supports CDATA. -->
-    <itunes:summary><![CDATA[
+    <itunes:summary>
       WhyDRS: Taking Stock explores direct registration (DRS), market structure,
       and investor empowerment. Episodes offer practical guidance,
       regulatory context, and community perspectives.
-    ]]></itunes:summary>
+    </itunes:summary>
 
     <!-- Additional rich HTML (many apps ignore; harmless to include). -->
     <content:encoded><![CDATA[
@@ -99,7 +100,7 @@
            (and keep the old feed alive for several weeks).
          ========================================================= -->
     <atom:link
-      href="https://taking-stock.github.io/RSSfeed/Taking-Stock-RSS-Feed.xml"
+      href="https://ts.whydrs.org/feeds/index.xml"
       rel="self"
       type="application/rss+xml" />
 
@@ -130,12 +131,16 @@
          - itunes:type: "episodic" (newest first) or "serial" (seasonal order).
          - itunes:keywords are optional but can help search in some apps.
          ========================================================= -->
+    
+    <!-- Primary category -->
     <itunes:category text="Education" />
-    <!-- Example of nested categories (uncomment to use):
-    <itunes:category text="Education">
-      <itunes:category text="Self-Improvement"/>
+
+    <!-- Secondary categories -->
+    <itunes:category text="Business">
+      <itunes:category text="Investing"/>
     </itunes:category>
-    -->
+    <itunes:category text="Technology"/>
+
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:keywords>finance,self-custody,decentralization,markets,DRS,education,non-profit,investing,open-source,advocacy,reform,blockchain</itunes:keywords>
@@ -163,15 +168,28 @@
     <podcast:locked owner="hi@whydrs.org">yes</podcast:locked>
 
     <!-- Owner funding / support link for Podcast Index & compatible apps. -->
-    <!--
     <podcast:funding url="https://www.whydrs.org/donate">Support WhyDRS</podcast:funding>
-    -->
 
     <!-- Alternate contact or social links (OPTIONAL; many apps ignore). -->
     <!--
     <podcast:person role="host">Chives</podcast:person>
     <podcast:person role="host">John</podcast:person>
     -->
+
+    <!-- <itunes:author>WhyDRS.org (Hosts: Chives & John)</itunes:author>. -->
+
+    <!-- Modern, structured host data
+    <podcast:person role="host" group="WhyDRS.org" img="https://whydrs.org/images/chives.jpg">
+      Chives
+    </podcast:person>
+
+    <podcast:person role="host" group="WhyDRS.org" img="https://whydrs.org/images/john.jpg">
+      John
+    </podcast:person> -->
+
+    <!-- <podcast:person role="guest">Jane Doe</podcast:person> -->
+
+
 
     <!-- =========================================================
          PLACEHOLDER FOR EPISODES
@@ -184,11 +202,9 @@
 <item>
       <title>#72 - WhyDRS DUNA and the Block Transfer Syndicate: Relationship and Policy Perspectives</title>
       <pubDate>Thu, 29 May 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeihyt4uephbxcgnye2qk7jmbbgpk2s4qrdmuwxg5kwxzqvbks77zyy.ipfs.dweb.link?filename=Taking%20Stock%20Ep72%20-%202025-05-29%20WhyDRS%20DUNA%20and%20the%20Block%20Transfer%20Syndicate%20-%20Relationship%20and%20Policy%20Perspectives.mp3" type="audio/mpeg" length="78384904" />
-      <guid isPermaLink="true">https://bafybeihyt4uephbxcgnye2qk7jmbbgpk2s4qrdmuwxg5kwxzqvbks77zyy.ipfs.dweb.link?filename=Taking%20Stock%20Ep72%20-%202025-05-29%20WhyDRS%20DUNA%20and%20the%20Block%20Transfer%20Syndicate%20-%20Relationship%20and%20Policy%20Perspectives.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep72/5-29-2025.mp3" type="audio/mpeg" length="78384904" />
+      <guid isPermaLink="false">Taking-Stock-ep72</guid>
       <itunes:duration>01:52:30</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Today on Taking Stock Chives and John take a deep dive into future considerations for a potential formalized relationship between the WhyDRS DUNA and the Block Transfer Syndicate. They are joined by Mark Rümmel and BuR, and a fantastic conversation detailing the importance of this movement.  </p>
 <p> Investors are learning more about these markets all of the time, and it is clear that we'll need innovation to solve the shortcomings of the legacy market. Decentralization and open source efforts from a worldwide community of driven and passionate investors makes this path forwards possible. </p>
         <br />
@@ -213,11 +229,9 @@
 <item>
       <title>#71 - Welcome Commissioner Atkins! SEC Speaks and Crypto Task Force</title>
       <pubDate>Wed, 21 May 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeih5iu7hvxfnjkoobyfoeyzk2bypxnl3jd57nawht7po7f54g3xxfq.ipfs.dweb.link?filename=Taking%20Stock%20Ep71%20-%202025-05-21%20Welcome%20Commissioner%20Atkins!%20SEC%20Speaks%20and%20Crypto%20Task%20Force.mp3" type="audio/mpeg" length="65707744" />
-      <guid isPermaLink="true">https://bafybeih5iu7hvxfnjkoobyfoeyzk2bypxnl3jd57nawht7po7f54g3xxfq.ipfs.dweb.link?filename=Taking%20Stock%20Ep71%20-%202025-05-21%20Welcome%20Commissioner%20Atkins!%20SEC%20Speaks%20and%20Crypto%20Task%20Force.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep71/5-21-2025.mp3" type="audio/mpeg" length="65707744" />
+      <guid isPermaLink="false">Taking-Stock-ep71</guid>
       <itunes:duration>01:21:42</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Today on Taking Stock Chives and John welcome the beginning of a new leadership at the SEC, as Chairman Atkins returns to the commission at the head of the table. Chairman Atkins had been on the board from 2002 to 2008, and has been in the private sector in the interim. </p>
 <p>We examine the first two major public appearances and speechs from Chairman Atkins, and consider how his language and focuses may impact changes in market structure over the coming years. </p>
         <br />
@@ -243,11 +257,9 @@
 <item>
       <title>#70 - TAR Submission and Commissioner Peirce’s End of Term</title>
       <pubDate>Wed, 14 May 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeif5ypgwilyiptbbno5nge5zjd2e6l4yw2qbsbgznuvb3xle7vxqim.ipfs.dweb.link?filename=Taking%20Stock%20Ep70%20-%202025-05-14%20TAR%20Submission%20and%20Commissioner%20Pierce%E2%80%99s%20End%20of%20Term.mp3" type="audio/mpeg" length="68137312" />
-      <guid isPermaLink="true">https://bafybeif5ypgwilyiptbbno5nge5zjd2e6l4yw2qbsbgznuvb3xle7vxqim.ipfs.dweb.link?filename=Taking%20Stock%20Ep70%20-%202025-05-14%20TAR%20Submission%20and%20Commissioner%20Pierce%E2%80%99s%20End%20of%20Term.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep70/5-14-2025.mp3" type="audio/mpeg" length="68137312" />
+      <guid isPermaLink="false">Taking-Stock-ep70</guid>
       <itunes:duration>01:25:40</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Today on Taking Stock Chives and John cover the exciting submission of the TAR OCC Comment which was also discussed in earlier Taking Stock episodes 54 and 58. We also discuss recent statements by Commissioner Hester Pierce of the SEC, whose term ends soon. </p>
 <p>What insight can we glean from her statements as her time in the public sector sunsets? Pierce was someone who disagreed with some methods taken by Chairman Gensler, and who has consistently been friendly to the crypto industry. </p>
         <br />
@@ -271,13 +283,11 @@
   </item>
     
 <item>
-      <title>#69 - Accessing Shareholder Lists Virtually and in Person Breakdown With 6days1week</title>
+      <title>#69 - Accessing Shareholder Lists Virtually and in Person Breakdown (w/ 6days1week)</title>
       <pubDate>Wed, 07 May 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiet3kkwxi3imbwzq4fmuldps2ie4anahb7nbcxy3ch2gjaliaxhry.ipfs.dweb.link?filename=Taking%20Stock%20Ep69%20-%202025-05-07%20Accessing%20Shareholder%20Lists%20Virtually%20and%20in%20Person%20Breakdown%20with%206days1week.mp3" type="audio/mpeg" length="76672120" />
-      <guid isPermaLink="true">https://bafybeiet3kkwxi3imbwzq4fmuldps2ie4anahb7nbcxy3ch2gjaliaxhry.ipfs.dweb.link?filename=Taking%20Stock%20Ep69%20-%202025-05-07%20Accessing%20Shareholder%20Lists%20Virtually%20and%20in%20Person%20Breakdown%20with%206days1week.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep69/5-7-2025.mp3" type="audio/mpeg" length="76672120" />
+      <guid isPermaLink="false">Taking-Stock-ep69</guid>
       <itunes:duration>01:38:58</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Today on Taking Stock Chives is joined by 6days1week, the preeminent community expert in shareholder communications and accessing issuer documents such shareholder lists. </p>
 <p>6days is a DRS advocate and has engaged with dozens of companies utilizing his legal access as a directly registered shareholder. Thanks so much 6days for your tenacity and for sharing your perspectives with the community! </p>
         <br />
@@ -301,11 +311,9 @@
  <item>
       <title>#68 - DTCC's Great Collateral Experiment</title>
       <pubDate>Wed, 30 Apr 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiar4d4qa32yaakcslejwjqjtbvqpbfh4a5sngiavkuuonwpjr5sky.ipfs.dweb.link?filename=Taking%20Stock%20Ep68%20-%202025-04-30%20DTCCs%20Great%20Collateral%20Experiment.mp3" type="audio/mpeg" length="18126832" />
-      <guid isPermaLink="true">https://bafybeiar4d4qa32yaakcslejwjqjtbvqpbfh4a5sngiavkuuonwpjr5sky.ipfs.dweb.link?filename=Taking%20Stock%20Ep68%20-%202025-04-30%20DTCCs%20Great%20Collateral%20Experiment.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep68/4-30-2025.mp3" type="audio/mpeg" length="18126832" />
+      <guid isPermaLink="false">Taking-Stock-ep68</guid>
       <itunes:duration>00:20:27</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Today on Taking Stock Chives provides a brief overview and recommendation to check out the DTCC Collateral Experiment, a recent livestream held by DTCC displaying their intentions for incorporating decentralized ledger technology - specifically, the concept of tokenizing - into their systems. </p>
 <p>While DLT can and will be a huge benefit for investors and issuers in developing market transparency, is DTCC's implementation along those lines? This is a good followup on episodes 50 and 51, where we talked about the DTCC and Treasury reports on how decentralized ledger tech can be involved in tradfi. </p>
         <br />
@@ -331,13 +339,11 @@
     
 
  <item>
-      <title>#67 - LLMs and 'Vibe Coding' as a Creative Tool and Outlet With NYTEMODE</title>
+      <title>#67 - LLMs and 'Vibe Coding' as a Creative Tool and Outlet (w/ NYTEMODE)</title>
       <pubDate>Wed, 16 Apr 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiemnymxrxxcjaute24lvwqje25a5f67n3g63w5g7yncwrscuairtm.ipfs.dweb.link?filename=Taking%20Stock%20Ep67%20-%202025-04-16%20LLMs%20and%20'Vibe%20Coding'%20as%20a%20Creative%20Tool%20and%20Outlet%20with%20NYTEMODE.mp3" type="audio/mpeg" length="61563424" />
-      <guid isPermaLink="true">https://bafybeiemnymxrxxcjaute24lvwqje25a5f67n3g63w5g7yncwrscuairtm.ipfs.dweb.link?filename=Taking%20Stock%20Ep67%20-%202025-04-16%20LLMs%20and%20'Vibe%20Coding'%20as%20a%20Creative%20Tool%20and%20Outlet%20with%20NYTEMODE.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep67/4-16-2025.mp3" type="audio/mpeg" length="61563424" />
+      <guid isPermaLink="false">Taking-Stock-ep67</guid>
       <itunes:duration>01:25:35</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Today on Taking Stock Chives is joined by @NYTEMODE to take a look at the current state of LLMs and how they can be utilized on a personal basis to assist in increasing creative output. We'll cover good practices and 'rules' which can help to control for quality, and talk a bit about what Nyte sees coming down the pike. </p>
 <p>Nytemode has helped out the WhyDRS effort as a community volunteer stewarding this server, running AI workshops with users here, and recently dove into front end development to improve the accessibility and appearance of the WhyDRS Database. </p>
         <br />
@@ -361,11 +367,9 @@
   <item>
       <title>#66 - Donations Discussion - Collection, Distribution, Governance, and Transparency</title>
       <pubDate>Wed, 09 Apr 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeifmfyq55doypkm6z5qo3avvohiodlzagpaby5fxwduaghngldy24u.ipfs.dweb.link" type="audio/mpeg" length="71719984" />
-      <guid isPermaLink="true">https://bafybeifmfyq55doypkm6z5qo3avvohiodlzagpaby5fxwduaghngldy24u.ipfs.dweb.link</guid>
+      <enclosure url="hhttps://ts.whydrs.org/episodes/2025/ep66/4-9-2025.mp3" type="audio/mpeg" length="71719984" />
+      <guid isPermaLink="false">Taking-Stock-ep66</guid>
       <itunes:duration>01:36:14</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Today on Taking Stock we're diving deep into Donations. At this time, donations are enabled and can be received by WhyDRS, an operating 501c3 public charity.</p>
 <p>Chives details how WhyDRS collects funds, where those funds are being held, plans to improve disclosure and transparency in the future, plans for the governance structure we'll be using in order to facilitate use of those funds along with some key costs that will be early agenda items for WhyDRS to cover natively. </p>
         <br />
@@ -390,11 +394,9 @@
   <item>
       <title>#65 - CAT Update From FINRA - Securities Error Rates Approaching 10 Percent</title>
       <pubDate>Wed, 02 Apr 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeigvst2nnfjk4zvgkybwrsumaxzg4nghsmyk7rf4mdunzdx23rp7ea.ipfs.dweb.link" type="audio/mpeg" length="46081264" />
-      <guid isPermaLink="true">https://bafybeigvst2nnfjk4zvgkybwrsumaxzg4nghsmyk7rf4mdunzdx23rp7ea.ipfs.dweb.link</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep65/4-2-2025.mp3" type="audio/mpeg" length="46081264" />
+      <guid isPermaLink="false">Taking-Stock-ep65</guid>
       <itunes:duration>55:37</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>For Taking Stock today, we'll look at a recent CAT update. It was initially supposed to be released on 3/20/25 but was delayed and released 4/1/25 - is CAT out of the bag? </p>
 <p>There were decentralized efforts to reach out to FINRA and ensure that this data was released publicly. Great work to all of the investors out there seeking accountability and transparency.</p>
         <br />
@@ -420,11 +422,9 @@
   <item>
       <title>#64 - GameStop DRS Update and DTCC Files Amendment to Wind-Down Procedures</title>
       <pubDate>Wed, 26 Mar 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeihbmfo5tiwgrvkwhllqogflch46gqlxid5xn2acbyyerount7l66u.ipfs.dweb.link" type="audio/mpeg" length="50391352" />
-      <guid isPermaLink="true">https://bafybeihbmfo5tiwgrvkwhllqogflch46gqlxid5xn2acbyyerount7l66u.ipfs.dweb.link</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep64/3-26-2025.mp3" type="audio/mpeg" length="50391352" />
+      <guid isPermaLink="false">Taking-Stock-ep64</guid>
       <itunes:duration>01:18:57</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>On this episode we cover the update to DRS reporting from GameStop in their 10-K, something important to do as GameStop is still one of just two companies publicly reporting this information quarterly.</p>
 <p>We'll also take a look at a new amendment the DTCC has filed, opening for comment proposed changes to their recovery and wind down procedures. </p>
         <br />
@@ -448,11 +448,9 @@
   <item>
       <title>#63 - WhyDRS at Structured Finance Association's 2025 SFVegas</title>
       <pubDate>Wed, 19 Mar 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeid5yysxvfabqelby6ev5c4wkyrx22yrhuw5dgnh7nfi5oyn3jdhwe.ipfs.dweb.link" type="audio/mpeg" length="86854264" />
-      <guid isPermaLink="true">https://bafybeid5yysxvfabqelby6ev5c4wkyrx22yrhuw5dgnh7nfi5oyn3jdhwe.ipfs.dweb.link</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep63/3-19-2025.mp3" type="audio/mpeg" length="86854264" />
+      <guid isPermaLink="false">Taking-Stock-ep63</guid>
       <itunes:duration>02:19:36</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>On Taking Stock this week, where we'll be catching up with John Wooten who attended the Structured Finance Association's 2025 conference. Longtime community members may remember that John has attended in prior years and worn logoed items to help spread the word of WhyDRS</p>
 <p>This time around John was further encouraged through community vote to directly represent our pro-retail non-profit educational and reform causes. </p>
         <br />
@@ -475,13 +473,11 @@
   </item>
 
   <item>
-      <title>#62 - How We Research and How We Engage Regulators With WhatCanIMakeToday</title>
+      <title>#62 - How We Research and How We Engage Regulators (w/ WhatCanIMakeToday)</title>
       <pubDate>Wed, 03 Mar 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiaqodhotgron5cv2g7yq7xtqsqtd5ynauihgo2knauwrhbxi6pizm.ipfs.dweb.link" type="audio/mpeg" length="37406392" />
-      <guid isPermaLink="true">https://bafybeiaqodhotgron5cv2g7yq7xtqsqtd5ynauihgo2knauwrhbxi6pizm.ipfs.dweb.link</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep62/3-3-2025.mp3" type="audio/mpeg" length="37406392" />
+      <guid isPermaLink="false">Taking-Stock-ep62</guid>
       <itunes:duration>01:00:12</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Hey all! Chives be chatting with @WhatCanIMakeToday on the subjects of research and regulator engagement from the Retail side. </p>
 <p>As many know, WhatCan is an incredible example of consistent and driven research, and is skilled utilizing common platforms to help bring important considerations to the forefront.</p>
         <br />
@@ -503,13 +499,11 @@
   </item>
 
   <item>
-      <title>#61 - DOGE SEC Crypto Markets and Server Updates With LRF</title>
+      <title>#61 - DOGE SEC Crypto Markets and Server Updates (w/ LRF)</title>
       <pubDate>Wed, 26 Feb 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibx6uwaelb2ggphkugolgawks5g3fwdhdfy7obael624eoloayp5a.ipfs.dweb.link" type="audio/mpeg" length="42554848" />
-      <guid isPermaLink="true">https://bafybeibx6uwaelb2ggphkugolgawks5g3fwdhdfy7obael624eoloayp5a.ipfs.dweb.link</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep61/2-26-2025.mp3" type="audio/mpeg" length="42554848" />
+      <guid isPermaLink="false">Taking-Stock-ep61</guid>
       <itunes:duration>59:39</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>On this episode, Chives and LRF talk about a variety of planned server and community updates aimed to promote community engagement and transparency.</p>
 <p>We also discuss the recent public posts from the DOGE SEC account, seeking feedback or testimonials from the public and potential whistleblowers alike.</p>
         <br />
@@ -533,11 +527,9 @@
   <item>
       <title>#60 - Ideas for Securities Processing Transformation</title>
       <pubDate>Wed, 19 Feb 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeigss45fs3lxqgvaoffvzlkk2kiy4xolq5kitffzx2qa64ofujvcli.ipfs.dweb.link" type="audio/mpeg" length="82720360" />
-      <guid isPermaLink="true">https://bafybeigss45fs3lxqgvaoffvzlkk2kiy4xolq5kitffzx2qa64ofujvcli.ipfs.dweb.link</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep60/2-19-2025.mp3" type="audio/mpeg" length="82720360" />
+      <guid isPermaLink="false">Taking-Stock-ep60</guid>
       <itunes:duration>01:52:14</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>The current market structure relies on a decades-old centralized monolith which handles settlement in an ordained monopoly. What are some other ways settlement and trade processing could work? Chives and John discuss some ideas.</p>
 
         <br />
@@ -561,11 +553,9 @@
   <item>
       <title>#59 - IPFS Decentralized Hosting, and SEC Short Reporting Delay</title>
       <pubDate>Wed, 12 Feb 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeidoyfpfejzvy4dspxlwz4mpuaz56pevv7xo2tvnn7l3yskvgnb6um.ipfs.dweb.link" type="audio/mpeg" length="73502320" />
-      <guid isPermaLink="true">https://bafybeidoyfpfejzvy4dspxlwz4mpuaz56pevv7xo2tvnn7l3yskvgnb6um.ipfs.dweb.link</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep59/2-12-2025.mp3" type="audio/mpeg" length="73502320" />
+      <guid isPermaLink="false">Taking-Stock-ep59</guid>
       <itunes:duration>01:36:00</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>We'll be talking today about the transition to IPFS, a software which allows for the decentralized hosting of files and information. This allows for more control over quality of data, and insulates against problems or vulnerabilities that can come from centralizing data.</p>
 <p>We'll also touch on the recent announcement from the SEC that short reporting data was delayed again, now pushed back to Feb of 2026.</p>
         <br />
@@ -595,11 +585,9 @@
   <item>
       <title>#58 - TAR Submission Continued From #54</title>
       <pubDate>Wed, 29 Jan 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeia3hmxvae5ofxedp3xqsrbvjox46gc26ys2jmzfy2qmj2fnikjurq.ipfs.dweb.link" type="audio/mpeg" length="76247560" />
-      <guid isPermaLink="true">https://bafybeia3hmxvae5ofxedp3xqsrbvjox46gc26ys2jmzfy2qmj2fnikjurq.ipfs.dweb.link</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep58/1-29-2025.mp3" type="audio/mpeg" length="76247560" />
+      <guid isPermaLink="false">Taking-Stock-ep58</guid>
       <itunes:duration>01:38:08</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>John and I will be talking about ongoing development on the TAR Comment which is available for review and suggestion on GitHub. It is being drafted in response to the SEC soliciting public feedback on transfer agent regulations.</p>
 <p>This is a topic which we've covered before, and as we approach planned time for submission, we'll take another look at developments and efforts on this front.</p>
         <br />
@@ -625,11 +613,9 @@
 <item>
       <title>#57 - Shared Goals - What's Best for Retail?</title>
       <pubDate>Wed, 22 Jan 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeieczbozefbywboos324fda7vser2jxsciwf2sm2cxqovn375r5wv4.ipfs.dweb.link?filename=Taking%20Stock%20ep57%20-%202025-01-22%20Shared%20Goals-%20What's%20Best%20for%20Retail.mp3" type="audio/mpeg" length="73334656" />
-      <guid isPermaLink="true">https://bafybeieczbozefbywboos324fda7vser2jxsciwf2sm2cxqovn375r5wv4.ipfs.dweb.link?filename=Taking%20Stock%20ep57%20-%202025-01-22%20Shared%20Goals-%20What's%20Best%20for%20Retail.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep57/1-22-2025.mp3" type="audio/mpeg" length="73334656" />
+      <guid isPermaLink="false">Taking-Stock-ep57</guid>
       <itunes:duration>01:49:44</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>On this episode, Chives and John talked about what a market which was retail-first and more equitable might look like, along with what transitions and approaches would be helpful to build towards that market.</p>
 <p>The charitable mission behind much of this work is to consider how we can best combine the advantages and successes of the modern market while still taking steps forward to an improved alternative.</p>
         <br />
@@ -653,11 +639,9 @@
 <item>
       <title>#56 - 501c3 Approved! Opening Doors and Moving Forward</title>
       <pubDate>Wed, 15 Jan 2025 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeicalnglwg6qkzl3xsu2jqu5rxwirogtpqm5kzppavrjwtexlr2mta.ipfs.dweb.link?filename=Taking%20Stock%20ep56%20-%202025-01-15%20501c3%20Approved!.mp3" type="audio/mpeg" length="62277328" />
-      <guid isPermaLink="true">https://bafybeicalnglwg6qkzl3xsu2jqu5rxwirogtpqm5kzppavrjwtexlr2mta.ipfs.dweb.link?filename=Taking%20Stock%20ep56%20-%202025-01-15%20501c3%20Approved!.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2025/ep56/1-15-2025.mp3" type="audio/mpeg" length="62277328" />
+      <guid isPermaLink="false">Taking-Stock-ep56</guid>
       <itunes:duration>01:04:36</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Excellent news to start the new year; WhyDRS has been approved as a 501c3 Public Charity!</p>
 <p>It's a welcome step forward, and will provide a variety of opportunities in the coming year. Let's talk about it!</p>
         <br />
@@ -681,11 +665,9 @@
 <item>
       <title>#55 - WhyDRS Year in Review and Plans for 2025</title>
       <pubDate>Wed, 11 Dec 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeih2lhtqhyshie3m5jfxwtovo4qoqq4lotqhgn7ul6nbtrz7537asi.ipfs.dweb.link?filename=Taking%20Stock%20ep55%20-%202024-12-11%20WhyDRS%20Year%20in%20Review%20and%20Plans%20for%202025.mp3" type="audio/mpeg" length="88019951" />
-      <guid isPermaLink="true">https://bafybeih2lhtqhyshie3m5jfxwtovo4qoqq4lotqhgn7ul6nbtrz7537asi.ipfs.dweb.link?filename=Taking%20Stock%20ep55%20-%202024-12-11%20WhyDRS%20Year%20in%20Review%20and%20Plans%20for%202025.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep55/12-11-2024.mp3" type="audio/mpeg" length="88019951" />
+      <guid isPermaLink="false">Taking-Stock-ep55</guid>
       <itunes:duration>02:07:25</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Hey all! Today we'll be taking stock of our progress this past year, and taking a look forward at what 2025 may look like. From porting our database infrastructure to GitHub and becoming the first American DUNA, there have been some awesome advancements.</p>
 <p>I'm looking forward to also discussing items on the near horizon, such as the hopeful approval to come for WhyDRS to operate as a charitable nonprofit. @wtfeweguys will join the show to talk about social engagement and scaling project development, leveraging what we have to grow what we can do. This will also be the last episode of 2024, as we break for the winter holiday. Be well and be merry!</p>
         <br />
@@ -709,11 +691,9 @@
 <item>
       <title>#54 - Transfer Agent Regulations Past, Present and Future</title>
       <pubDate>Wed, 04 Dec 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeifxneleerajp4nnrffdpn2nfsyibi6foldss4obaswj76pkbjraaa.ipfs.dweb.link?filename=Taking%20Stock%20ep54%20-%202024-12-04%20Transfer%20Agent%20Regulations%20Past%2C%20Present%20and%20Future.mp3" type="audio/mpeg" length="90245071" />
-      <guid isPermaLink="true">https://bafybeifxneleerajp4nnrffdpn2nfsyibi6foldss4obaswj76pkbjraaa.ipfs.dweb.link?filename=Taking%20Stock%20ep54%20-%202024-12-04%20Transfer%20Agent%20Regulations%20Past%2C%20Present%20and%20Future.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep54/12-4-2024.mp3" type="audio/mpeg" length="90245071" />
+      <guid isPermaLink="false">Taking-Stock-ep54</guid>
       <itunes:duration>02:29:39</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, we're speaking at length with John Wooten about his suggestions and work to see regulators update and modernize their approach to transfer agents.</p>
 <p>John is a hyperqualified person to speak with about these developments, as between his Transfer Agent BlockTransfer and his self-developed code concept TAD3, he is among the few pushing for meaningful under-the-hood changes in the TA industry.</p>
         <br />
@@ -735,13 +715,11 @@
   </item>
     
 <item>
-      <title>#53 - Power of Investor Community and Becoming Activated With Michael AME</title>
+      <title>#53 - Power of Investor Community and Becoming Activated (w/ Michael AME)</title>
       <pubDate>Wed, 20 Nov 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeifxsjb6lf3lvt5v7e4nkth3kogzxt5ilcih3bxoojm3tzhuvlgs5a.ipfs.dweb.link?filename=Taking%20Stock%20ep53%20-%202024-11-20%20Power%20of%20Investor%20Community%20and%20becoming%20Activated%20with%20Michael%20AME.mp3" type="audio/mpeg" length="90893800" />
-      <guid isPermaLink="true">https://bafybeifxsjb6lf3lvt5v7e4nkth3kogzxt5ilcih3bxoojm3tzhuvlgs5a.ipfs.dweb.link?filename=Taking%20Stock%20ep53%20-%202024-11-20%20Power%20of%20Investor%20Community%20and%20becoming%20Activated%20with%20Michael%20AME.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep53/11-20-2024.mp3" type="audio/mpeg" length="90893800" />
+      <guid isPermaLink="false">Taking-Stock-ep53</guid>
       <itunes:duration>01:47:10</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week we're joined by Michael AME, a retail investor active in community development and in highlighting the efforts of the readers, writers and builders who are seeking to raise the floor for collective understanding among investors.</p>
 <p>These are intentionally complicated markets, and simplifying them isn't in everyone's interest. Michael tells us more about his personal journey to become invested and how he became interested to build a community and bring attention to niche but crucial details uncovered by it's members.</p>
         <br />
@@ -763,13 +741,11 @@
   </item>
 
 <item>
-      <title>#52 - Retail Investing in the Blockchain Era With Valentine</title>
+      <title>#52 - Retail Investing in the Blockchain Era (w/ Valentine)</title>
       <pubDate>Wed, 13 Nov 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiddbltkdka6ojorn6nubfrubtj4m73tzh5j7hfj6h6znvupmmo5im.ipfs.dweb.link?filename=Taking%20Stock%20ep52%20-%202024-11-13%20Retail%20Investing%20in%20the%20Blockchain%20Era%20with%20Valentine.mp3" type="audio/mpeg" length="61823280" />
-      <guid isPermaLink="true">https://bafybeiddbltkdka6ojorn6nubfrubtj4m73tzh5j7hfj6h6znvupmmo5im.ipfs.dweb.link?filename=Taking%20Stock%20ep52%20-%202024-11-13%20Retail%20Investing%20in%20the%20Blockchain%20Era%20with%20Valentine.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep52/11-13-2024.mp3" type="audio/mpeg" length="61823280" />
+      <guid isPermaLink="false">Taking-Stock-ep52</guid>
       <itunes:duration>01:33:23</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week Chives and John were joined by Valentine, a Stellar community member and contributor who is becoming increasingly involved in the online advocacy space and is providing code improvements to the SDEX ecosystem.</p>
 <p>Valentine has some personal history as a retail investor and engaging with online communities, and was unfamiliar with DRS as an asset holding framework, so we covered some of these topics as well.</p>
         <br />
@@ -793,11 +769,9 @@
 <item>
       <title>#51 - U.S. Treasury Digital Assets Study</title>
       <pubDate>Wed, 06 Nov 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeif564frpr74dm55afoumvilpqyqrgsoo25uvccq26z2h6r2hdjfqa.ipfs.dweb.link?filename=Taking%20Stock%20ep51%20-%202024-11-06%20U.S.%20Treasury%20Digital%20Assets%20Study.mp3" type="audio/mpeg" length="89422096" />
-      <guid isPermaLink="true">https://bafybeif564frpr74dm55afoumvilpqyqrgsoo25uvccq26z2h6r2hdjfqa.ipfs.dweb.link?filename=Taking%20Stock%20ep51%20-%202024-11-06%20U.S.%20Treasury%20Digital%20Assets%20Study.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep51/11-6-2024.mp3" type="audio/mpeg" length="89422096" />
+      <guid isPermaLink="false">Taking-Stock-ep51</guid>
       <itunes:duration>01:48:50</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Today on Taking Stock we'll follow up on last weeks discussion with an examination of the Treasury Department's study on Digital Assets, which also was released in October 2024. The Treasury takes a more direct approach reviewing how tokenization of treasuries could impact the market currently developing in the crypto space including effects on stablecoins, bitcoin, memecoins, and coins yet to come. It is a data driven and conservative take which is worth the read if you're interested to see how the coming years may integrate emergent blockchain technology.</p>
 <p>Make sure to check out some of the excellent included graphics and charts to follow along, as we'll praise heavily the diligence displayed by this team even if dismayed by the way in which the Treasury department is recommending to utlize distributed ledgers.</p>
         <br />
@@ -824,11 +798,9 @@
 <item>
       <title>#50 - DTCCs Digital Assets Study</title>
       <pubDate>Wed, 30 Oct 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiej3xgyxydp4mzzqdyi7xj2s6qsub474jtfrhm62estxtpnmz5ktq.ipfs.dweb.link?filename=Taking%20Stock%20ep50%20-%202024-10-30%20DTCCs%20Digital%20Assets%20Study.mp3" type="audio/mpeg" length="69038344" />
-      <guid isPermaLink="true">https://bafybeiej3xgyxydp4mzzqdyi7xj2s6qsub474jtfrhm62estxtpnmz5ktq.ipfs.dweb.link?filename=Taking%20Stock%20ep50%20-%202024-10-30%20DTCCs%20Digital%20Assets%20Study.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep50/10-30-2024.mp3" type="audio/mpeg" length="69038344" />
+      <guid isPermaLink="false">Taking-Stock-ep50</guid>
       <itunes:duration>01:22:23</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Today on Taking Stock we'll be discussing the recent DTCC study on Digital Assets effects on Collateral Management. Per @john.xlm , DTCC Digital Assets is their Securrency acquisition. One of the primary benefits to digital assets is how it can enable direct custodial control for participants and transparency for onlookers - DTCC as umbrella for the centralized security depository for US markets will have an interesting sponsored take on this tech.</p>
 <p>The report was authored by Nadine Chakar, an industry veteran who is currently the Global Head of DTCC Digital Assets. Her prior roles included acting as Securrency CEO, an RWA tokenization firm, before they were acquired by DTCC and as the head of State Street Digital, which was a focused division of the State Street asset management firm.</p>
         <br />
@@ -857,13 +829,11 @@
     
 
 <item>
-      <title>#49 - Connecting Investors Across Communities With Ankit of XXIM</title>
+      <title>#49 - Connecting Investors Across Communities (w/ Ankit of XXIM)</title>
       <pubDate>Wed, 23 Oct 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeihteimdztkqqfdth725o5v7rn5hyjmwxjaq6jcfsbboc5yeepnwvm.ipfs.dweb.link?filename=Taking%20Stock%20Ep49%20-%202024-10-23%20Connecting%20Investors%20Across%20Communities%20with%20Ankit%20of%20XXIM.mp3" type="audio/mpeg" length="55034939" />
-      <guid isPermaLink="true">https://bafybeihteimdztkqqfdth725o5v7rn5hyjmwxjaq6jcfsbboc5yeepnwvm.ipfs.dweb.link?filename=Taking%20Stock%20Ep49%20-%202024-10-23%20Connecting%20Investors%20Across%20Communities%20with%20Ankit%20of%20XXIM.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep49/10-23-2024.mp3" type="audio/mpeg" length="55034939" />
+      <guid isPermaLink="false">Taking-Stock-ep49</guid>
       <itunes:duration>01:13:24</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives is joined by Ankit of XXIM. Ankit has described his project as an effort to bridge the gap of understanding between disparate sections of retail involved in the financial sector, and we discuss how blockchain technology (beyond any specific crypto) can be applied to traditional financial markets - both by current market incumbents, but also by market participants and enthusiasts.</p>
 <p>Ankit and his wife also host the XXIM podcast where both Chives and John Wooten have appeared as guests in one part of the effort to spread the knowledge around.</p>
         <br />
@@ -893,13 +863,11 @@
   </item>
 
 <item>
-      <title>#48 - Getting Involved! With WhyDRS Database Guru Gorillionaire2</title>
+      <title>#48 - Getting Involved! (w/ WhyDRS Database Guru Gorillionaire2)</title>
       <pubDate>Wed, 16 Oct 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeid3m37r45tqiiaawy3maxvvzadpr637guj2qzzybhrpinql3taawi.ipfs.dweb.link?filename=Taking%20Stock%20Ep48%20-%202024-10-16%20Getting%20Involved!%20with%20WhyDRS%20Database%20Guru%20Gorillionaire2.mp3" type="audio/mpeg" length="69012928" />
-      <guid isPermaLink="true">https://bafybeid3m37r45tqiiaawy3maxvvzadpr637guj2qzzybhrpinql3taawi.ipfs.dweb.link?filename=Taking%20Stock%20Ep48%20-%202024-10-16%20Getting%20Involved!%20with%20WhyDRS%20Database%20Guru%20Gorillionaire2.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep48/10-16-2024.mp3" type="audio/mpeg" length="69012928" />
+      <guid isPermaLink="false">Taking-Stock-ep48</guid>
       <itunes:duration>01:44:27</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives is joined by Gorillionaire2. Gorillionaire has been a key contributing member of the WhyDRS team since before WhyDRS.org launched in Feb 2023, and the WhyDRS Database originally evolved out of a personal project that he started.</p>
 <p>Gorillionaire continues to be the core of its maintenance and growth, publicly displaying his commitment to through documented improvements on GitHub and welcoming community input so that we can continually improve the free information and educational resources that are core to the DRS mission.</p>
         <br />
@@ -927,11 +895,9 @@
 <item>
       <title>#47 - Decentralized Management, Teamwork, and Growth</title>
       <pubDate>Wed, 09 Oct 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeid2jjnu6bw4e5vzggvepowraxkbaado67dxztv3amxmbygnawkb6i.ipfs.dweb.link?filename=Taking%20Stock%20Ep47%20-%202024-10-09%20Decentralized%20Management%2C%20Teamwork%2C%20and%20Growth.mp3" type="audio/mpeg" length="95255512" />
-      <guid isPermaLink="true">https://bafybeid2jjnu6bw4e5vzggvepowraxkbaado67dxztv3amxmbygnawkb6i.ipfs.dweb.link?filename=Taking%20Stock%20Ep47%20-%202024-10-09%20Decentralized%20Management%2C%20Teamwork%2C%20and%20Growth.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep47/10-9-2024.mp3" type="audio/mpeg" length="95255512" />
+      <guid isPermaLink="false">Taking-Stock-ep47</guid>
       <itunes:duration>01:56:45</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives and John discussed Decentralized Management, Teamwork, and Growth. What does it mean to be a decentralized mass of enthusiasts pushing towards a common goal?</p>
 <p>How can we enable the driven to contribute, and how can we enable the curious to learn how to contribute? Where can we host information and resources to be the most helpful and conducive to meeting our goals, and how can we define specific goals for an organized body when everyone has their own nuanced perspective?</p>
         <br />
@@ -951,11 +917,9 @@
 <item>
       <title>#46 - Community Check In and 501c3 Process Details</title>
       <pubDate>Wed, 02 Oct 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibymfmvateyvipuagtkktk7wcu47rie5avnrhtwmqcm34pfnh5c24.ipfs.dweb.link?filename=Taking%20Stock%20Ep46%20-%202024-10-02%20Community%20Check%20In%20and%20501c3%20Process%20Details.mp3" type="audio/mpeg" length="69069544" />
-      <guid isPermaLink="true">https://bafybeibymfmvateyvipuagtkktk7wcu47rie5avnrhtwmqcm34pfnh5c24.ipfs.dweb.link?filename=Taking%20Stock%20Ep46%20-%202024-10-02%20Community%20Check%20In%20and%20501c3%20Process%20Details.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep46/10-2-2024.mp3" type="audio/mpeg" length="69069544" />
+      <guid isPermaLink="false">Taking-Stock-ep46</guid>
       <itunes:duration>01:20:34</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week, Chives reviews some ongoing key questions still to be answered for moving forward with the 501c3 IRS process, and invites community input.</p>
 <p>Key issues discussed include the best fit NTEE code, whether WhyDRS will submit additional paperwork concerning potentially influencing legislation, how and if compensation should be allotted to members from donated funds, and the distinction between a private foundation and a public charity.</p>
         <br />
@@ -985,11 +949,9 @@
 <item>
       <title>#45 - Alternate Trading Platforms</title>
       <pubDate>Wed, 27 Sep 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeieldksjuvpbgi2ecb2kgircj4qnmlqtziu4xjpy7gfl5ecrpnnd2u.ipfs.dweb.link?filename=Taking%20Stock%20Ep45%20-%202024-09-27%20Alternate%20Trading%20Platforms.mp3" type="audio/mpeg" length="92878600" />
-      <guid isPermaLink="true">https://bafybeieldksjuvpbgi2ecb2kgircj4qnmlqtziu4xjpy7gfl5ecrpnnd2u.ipfs.dweb.link?filename=Taking%20Stock%20Ep45%20-%202024-09-27%20Alternate%20Trading%20Platforms.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep45/9-27-2024.mp3" type="audio/mpeg" length="92878600" />
+      <guid isPermaLink="false">Taking-Stock-ep45</guid>
       <itunes:duration>01:42:15</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week, Chives and John take a look at Alternate Trading Systems, or ATS. These have transitioned from a small part of the market to representing more than 90% of retail market orders, according to Chairman Gensler in a 2022 Bloomberg interview.</p>
 <p>Also covered are emergent new models in the ATS space, such as tZero, and other potential developments in the space such as Block Transfer with a custody-first focus.</p>
         <br />
@@ -1013,11 +975,9 @@
 <item>
       <title>#44 - Petitioning the SEC for Fairer Rules</title>
       <pubDate>Wed, 11 Sep 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiaoycloobqspntx5u3dbolfttcz3r4a37zk6r5c3lbx3o4biqbxm4.ipfs.dweb.link?filename=Taking%20Stock%20Ep44%20-%202024-09-11%20Petitioning%20the%20SEC%20for%20Fairer%20Rules.mp3" type="audio/mpeg" length="73160488" />
-      <guid isPermaLink="true">hhttps://bafybeiaoycloobqspntx5u3dbolfttcz3r4a37zk6r5c3lbx3o4biqbxm4.ipfs.dweb.link?filename=Taking%20Stock%20Ep44%20-%202024-09-11%20Petitioning%20the%20SEC%20for%20Fairer%20Rules.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep44/9-11-2024.mp3" type="audio/mpeg" length="73160488" />
+      <guid isPermaLink="false">Taking-Stock-ep44</guid>
       <itunes:duration>01:42:00</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives was joined by @WhatCanIMakeToday, to discuss SEC Petitions, the NSCC petition hosted at WhyDRS, and the history of retail advocacy efforts as we grow from simply commenting on the proposals and reforms developed by the industry to skipping their framing and suggesting those reforms ourselves.</p>
         <br />
 <p>Twitter/X Link:</p>
@@ -1044,13 +1004,11 @@
   </item>
     
 <item>
-      <title>#43 - Unraveling the Activist Investor Mindset With BeyondMythos</title>
+      <title>#43 - Unraveling the Activist Investor Mindset (w/ BeyondMythos)</title>
       <pubDate>Wed, 04 Sep 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeifnakroyxmawgicwef77efyeaxht7una3makld67ruw4xkid6ca3q.ipfs.dweb.link?filename=Taking%20Stock%20Ep43%20-%202024-09-04%20Unraveling%20the%20Activist%20Investor%20Mindset%20with%20BeyondMythos.mp3" type="audio/mpeg" length="40010872" />
-      <guid isPermaLink="true">https://bafybeifnakroyxmawgicwef77efyeaxht7una3makld67ruw4xkid6ca3q.ipfs.dweb.link?filename=Taking%20Stock%20Ep43%20-%202024-09-04%20Unraveling%20the%20Activist%20Investor%20Mindset%20with%20BeyondMythos.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep43/9-4-2024.mp3" type="audio/mpeg" length="40010872" />
+      <guid isPermaLink="false">Taking-Stock-ep43</guid>
       <itunes:duration>59:06</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives was joined by @beyond-mythos, who has been growing a following around his research into how investors interact with the market, and how a company can be identified as a candidate for activism.</p>
         <p>We'll dive into these topics and ask Beyond how his interest in these subjects started in the first place!</p>
         <br />
@@ -1074,11 +1032,9 @@
 <item>
       <title>#42 - Diligence When Researching and Learning</title>
       <pubDate>Wed, 28 Aug 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeigij5uejndn2ockpznhszsrgq252wtwy5p7hmxs5esnlmkvdzovd4.ipfs.dweb.link?filename=Taking%20Stock%20Ep42%20-%202024-08-28%20Diligence%20when%20Researching%20and%20Learning.mp3" type="audio/mpeg" length="25851328" />
-      <guid isPermaLink="true">https://bafybeigij5uejndn2ockpznhszsrgq252wtwy5p7hmxs5esnlmkvdzovd4.ipfs.dweb.link?filename=Taking%20Stock%20Ep42%20-%202024-08-28%20Diligence%20when%20Researching%20and%20Learning.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep42/8-28-2024.mp3" type="audio/mpeg" length="25851328" />
+      <guid isPermaLink="false">Taking-Stock-ep42</guid>
       <itunes:duration>31:00</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives takes a look at taking care and appraising sources carefully when trying to learn.</p>
         <p>He goes over some helpful habits that can help when examining a source or reading a perspective online, such as keeping in mind that the figure behind the source may have it's own motives beyond helping you better understand a subject.</p>
         <br />
@@ -1111,11 +1067,9 @@
 <item>
       <title>#41 - Regulation in the Transfer Agent Sector</title>
       <pubDate>Wed, 21 Aug 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeigmjt45xzcjoj7zjea6db75ben2r5xxxenxxjk3cy27ftmtgsurqm.ipfs.dweb.link?filename=Taking%20Stock%20Ep41%20-%202024-08-21%20Regulation%20in%20the%20Transfer%20Agent%20Sector.mp3" type="audio/mpeg" length="78273496" />
-      <guid isPermaLink="true">https://bafybeigmjt45xzcjoj7zjea6db75ben2r5xxxenxxjk3cy27ftmtgsurqm.ipfs.dweb.link?filename=Taking%20Stock%20Ep41%20-%202024-08-21%20Regulation%20in%20the%20Transfer%20Agent%20Sector.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep41/8-21-2024.mp3" type="audio/mpeg" length="78273496" />
+      <guid isPermaLink="false">Taking-Stock-ep41</guid>
       <itunes:duration>01:50:35</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week Chives focuses on regulation in the Transfer Agent space, and we'll touch not only on recent SEC action against TA but on the broader regime, and how we've seen a variety of consolidation in the market sector.</p>
         <p>Chives was joined by John Wooten who has a unique and valuable perspective as someone who founded his own Transfer Agent and has been through the approval process with the SEC, and we can hear from him about how the decision to regulate TAs in this way has downstream effects on not only custody and investor safety but on the market itself.</p>
         <br />
@@ -1146,13 +1100,11 @@
   </item>
     
 <item>
-      <title>#40 - The Power of Retail Investors With Alexandra Merz</title>
+      <title>#40 - The Power of Retail Investors (w/ Alexandra Merz)</title>
       <pubDate>Wed, 14 Aug 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiepsnxen3ufibvku6dnaehhazlmo4aoick6cm5moyoowxnlpnee6i.ipfs.dweb.link?filename=Taking%20Stock%20Ep40%20-%202024-08-14%20The%20Power%20of%20Retail%20Investors%20with%20Alexandra%20Merz.mp3" type="audio/mpeg" length="51581584" />
-      <guid isPermaLink="true">https://bafybeiepsnxen3ufibvku6dnaehhazlmo4aoick6cm5moyoowxnlpnee6i.ipfs.dweb.link?filename=Taking%20Stock%20Ep40%20-%202024-08-14%20The%20Power%20of%20Retail%20Investors%20with%20Alexandra%20Merz.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep40/8-14-2024.mp3" type="audio/mpeg" length="51581584" />
+      <guid isPermaLink="false">Taking-Stock-ep40</guid>
       <itunes:duration>01:04:44</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week Chives is joined by Tesla community activist Alexander Merz, AKA TeslaBoomerMama, to discuss the power that retail investors have.</p>
         <p>The Tesla investor community is one of, if not the largest one in the world and recently had a large struggle with accessing their right to vote. Alexandra provides valuable insight as an international investor, as an organizer, and as someone who is peeling back the layers and learning more about DRS!</p>
         <br />
@@ -1182,11 +1134,9 @@
 <item>
       <title>#39 - Tools for Building a Transparent Community</title>
       <pubDate>Wed, 07 Aug 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeicvkgd3pfouuri7o6b4k2vlhkyokmttjpvb2flyfz5objbpflpfqm.ipfs.dweb.link?filename=Taking%20Stock%20Ep39%20-%202024-08-07%20Tools%20for%20Building%20a%20Transparent%20Community.mp3" type="audio/mpeg" length="51452648" />
-      <guid isPermaLink="true">https://bafybeicvkgd3pfouuri7o6b4k2vlhkyokmttjpvb2flyfz5objbpflpfqm.ipfs.dweb.link?filename=Taking%20Stock%20Ep39%20-%202024-08-07%20Tools%20for%20Building%20a%20Transparent%20Community.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep39/8-7-2024.mp3" type="audio/mpeg" length="51452648" />
+      <guid isPermaLink="false">Taking-Stock-ep39</guid>
       <itunes:duration>43:33</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week Chives dives into the platforms, bots and other tools we have been using and looking into in order to promote transparency from top to bottom of the community.</p>
         <br />
 <p>Twitter/X Link:</p>
@@ -1212,11 +1162,9 @@
 <item>
       <title>#38 - Decentralized Community Governance</title>
       <pubDate>Wed, 31 Jul 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibbmstcoey7hpwqt5iryyitmkcr2qwzlwgjicfx7dnwlhm43lxe5m.ipfs.dweb.link?filename=Taking%20Stock%20Ep38%20-%202024-07-31%20Decentralized%20Community%20Governance.mp3" type="audio/mpeg" length="86979536" />
-      <guid isPermaLink="true">https://bafybeibbmstcoey7hpwqt5iryyitmkcr2qwzlwgjicfx7dnwlhm43lxe5m.ipfs.dweb.link?filename=Taking%20Stock%20Ep38%20-%202024-07-31%20Decentralized%20Community%20Governance.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep38/7-31-2024.mp3" type="audio/mpeg" length="86979536" />
+      <guid isPermaLink="false">Taking-Stock-ep38</guid>
       <itunes:duration>01:27:37</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week Chives and John were joined by fellow community member Kirk to discuss decentralized community governance</p>
 <p>Kirk brought to the table his experience in grass roots movements in financial communities or an illuminating discussion.</p>
         <br />
@@ -1238,13 +1186,11 @@
   </item>
     
 <item>
-      <title>#37 - Decentralized Community Development With Pasta From Dash</title>
+      <title>#37 - Decentralized Community Development (w/ Pasta from Dash)</title>
       <pubDate>Wed, 24 Jul 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibrmg5z2bj4nnl7dy3ejd27asgbn5ujcpwy2bmkulkhgiqxhycvum.ipfs.dweb.link?filename=Taking%20Stock%20Ep37%20-%202024-07-24%20Decentralized%20Community%20Development%20With%20Pasta%20From%20Dash.mp3" type="audio/mpeg" length="76761640" />
-      <guid isPermaLink="true">https://bafybeibrmg5z2bj4nnl7dy3ejd27asgbn5ujcpwy2bmkulkhgiqxhycvum.ipfs.dweb.link?filename=Taking%20Stock%20Ep37%20-%202024-07-24%20Decentralized%20Community%20Development%20With%20Pasta%20From%20Dash.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep37/7-24-2024.mp3" type="audio/mpeg" length="76761640" />
+      <guid isPermaLink="false">Taking-Stock-ep37</guid>
       <itunes:duration>01:39:50</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week Chives and John were joined by Pasta, a core developer from Dash, to discuss decentralized community development.</p>
 <p>Pasta has been developing with Dash for several years and offers fantastic insight into how Dash has developed as a currency and as a community.</p>
         <br />
@@ -1275,11 +1221,9 @@
 <item>
       <title>#36 - Decentralizing DRS Educational Work</title>
       <pubDate>Wed, 17 Jul 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeidpfj3jmgssasekc2wclfmax5pvowvsmfjlqzswtztqb566m4z42m.ipfs.dweb.link?filename=Taking%20Stock%20Ep36%20-%202024-07-17%20Decentralizing%20DRS%20Educational%20Work.mp3" type="audio/mpeg" length="60618344" />
-      <guid isPermaLink="true">https://bafybeidpfj3jmgssasekc2wclfmax5pvowvsmfjlqzswtztqb566m4z42m.ipfs.dweb.link?filename=Taking%20Stock%20Ep36%20-%202024-07-17%20Decentralizing%20DRS%20Educational%20Work.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep36/7-17-2024.mp3" type="audio/mpeg" length="60618344" />
+      <guid isPermaLink="false">Taking-Stock-ep36</guid>
       <itunes:duration>01:00:14</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week John hosted a community discussion where he dove into the labor involved in the non-profit efforts of WhyDRS and how to decentralize the DRS educational work to expand its potential.</p>
         <br />
 <p>Join the Community:</p>
@@ -1295,11 +1239,9 @@
 <item>
       <title>#35 - WhyDRS DUNA Filing Breakdown, and What's Next?</title>
       <pubDate>Wed, 03 Jul 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeieqvnmaxmvdu6ga4j7bxkuifocy7dzda7kqaifcfozd3i7kgup7g4.ipfs.dweb.link?filename=Taking%20Stock%20Ep35%20-%202024-07-10%20WhyDRS%20DUNA%20Filing%20Breakdown%20and%20What_s%20Next.mp3" type="audio/mpeg" length="88143464" />
-      <guid isPermaLink="true">https://bafybeieqvnmaxmvdu6ga4j7bxkuifocy7dzda7kqaifcfozd3i7kgup7g4.ipfs.dweb.link?filename=Taking%20Stock%20Ep35%20-%202024-07-10%20WhyDRS%20DUNA%20Filing%20Breakdown%20and%20What_s%20Next.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep35/7-3-2024.mp3" type="audio/mpeg" length="88143464" />
+      <guid isPermaLink="false">Taking-Stock-ep35</guid>
       <itunes:duration>01:17:36</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week, Chives shares some incredible news - WhyDRS has taken it's first steps and filed as a legal entity, a nonprofit structure with decentralized governance and focused on education.</p>
 <p>Wyoming is the first U.S. state to allow this kind of structure, called a DUNA. While there were similar structure options outside of U.S., this is the first domestic option - and WhyDRS was the first to be approved and filed.</p>
         <br />
@@ -1327,11 +1269,9 @@
 <item>
       <title>#34 - Discussing Dilution Events</title>
       <pubDate>Wed, 26 Jun 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeigag2civwbyhvx6clg77ikm4etmewqajzeaa6kznxkfpiaiatvqfu.ipfs.dweb.link?filename=Taking%20Stock%20Ep34%20-%202024-06-26%20Discussing%20Dilution%20Events.mp3" type="audio/mpeg" length="100498256" />
-      <guid isPermaLink="true">https://bafybeigag2civwbyhvx6clg77ikm4etmewqajzeaa6kznxkfpiaiatvqfu.ipfs.dweb.link?filename=Taking%20Stock%20Ep34%20-%202024-06-26%20Discussing%20Dilution%20Events.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep34/6-26-2024.mp3" type="audio/mpeg" length="100498256" />
+      <guid isPermaLink="false">Taking-Stock-ep34</guid>
       <itunes:duration>01:34:07</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week Chives takes a deep dive into the different types and methods by which companies dilute stock, some of the common reasons for doing so, and how these dilutions commonly effect investors.</p>
         <br />
 <p>Twitter/X Link:</p>
@@ -1350,11 +1290,9 @@
 <item>
       <title>#33 - Community Check In and WhyDRS Investor Outreach Updates</title>
       <pubDate>Wed, 19 Jun 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiajc5z4tof62cuh5n7chtwigrwj6h3dpcr46wstu2invadsafv65y.ipfs.dweb.link?filename=Taking%20Stock%20Ep33%20-%202024-06-19%20Community%20Check%20In%20and%20WhyDRS%20Investor%20Outreach%20Updates.mp3" type="audio/mpeg" length="79642864" />
-      <guid isPermaLink="true">https://bafybeiajc5z4tof62cuh5n7chtwigrwj6h3dpcr46wstu2invadsafv65y.ipfs.dweb.link?filename=Taking%20Stock%20Ep33%20-%202024-06-19%20Community%20Check%20In%20and%20WhyDRS%20Investor%20Outreach%20Updates.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep33/6-19-2024.mp3" type="audio/mpeg" length="79642864" />
+      <guid isPermaLink="false">Taking-Stock-ep33</guid>
       <itunes:duration>01:42:05</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week Chives has returned and checked in with the community, as well as providing updates on the WhyDRS efforts.</p>
 <p>He was joined by some fantastic members of the community and a great discussion was had.</p>
         <br />
@@ -1376,13 +1314,11 @@
   </item>
     
 <item>
-      <title>#32 - Permissionless Innovation With Joaquin Soza From Palta Labs</title>
+      <title>#32 - Permissionless Innovation (w/ Joaquin Soza from Palta Labs)</title>
       <pubDate>Wed, 12 Jun 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibgmbdnxdh267v4ac6oszfdx55y6hdvdjs6r4bhg6zdznvrsnuxrq.ipfs.dweb.link?filename=Taking%20Stock%20Ep32%20-%202024-06-12%20Permissionless%20Innovation%20with%20Joaquin%20from%20Palta%20Labs.mp3" type="audio/mpeg" length="63354576" />
-      <guid isPermaLink="true">https://bafybeibgmbdnxdh267v4ac6oszfdx55y6hdvdjs6r4bhg6zdznvrsnuxrq.ipfs.dweb.link?filename=Taking%20Stock%20Ep32%20-%202024-06-12%20Permissionless%20Innovation%20with%20Joaquin%20from%20Palta%20Labs.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep32/6-12-2024.mp3" type="audio/mpeg" length="63354576" />
+      <guid isPermaLink="false">Taking-Stock-ep32</guid>
       <itunes:duration>01:10:07</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>Bibic and John were joined by Joaquin Soza, an independent developer originally from Chile who has been fascinated by web3 and blockchain development for years.</p>
 <p>The modern internet environment allows for skill development from anywhere, and allows anyone to find an effort which speaks to them and which they can contribute to. Joaquin is working with a development team, Palta Labs, on open source protocols on the Stellar network including a decentralized exchange and smart contracts platform. Joaquin provides a valuable perspective on being part of a diverse and worldwide community for technological development.</p>
         <br />
@@ -1408,13 +1344,11 @@
   </item>
     
 <item>
-      <title>#31 - DAOs and Grassroots Funding With Miles From FanSociety</title>
+      <title>#31 - DAOs and Grassroots Funding (w/ Miles from FanSociety)</title>
       <pubDate>Wed, 05 Jun 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiftbg6zoh6tiz46vqtm5s4pumvlcktah7iuiyxon23c7otryb2lb4.ipfs.dweb.link?filename=Taking%20Stock%20Ep31%20-%202024-06-05%20DAOs%20and%20Grassroots%20Funding%20with%20Miles%20from%20FanSociety.mp3" type="audio/mpeg" length="72723992" />
-      <guid isPermaLink="true">https://bafybeiftbg6zoh6tiz46vqtm5s4pumvlcktah7iuiyxon23c7otryb2lb4.ipfs.dweb.link?filename=Taking%20Stock%20Ep31%20-%202024-06-05%20DAOs%20and%20Grassroots%20Funding%20with%20Miles%20from%20FanSociety.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep31/6-5-2024.mp3" type="audio/mpeg" length="72723992" />
+      <guid isPermaLink="false">Taking-Stock-ep31</guid>
       <itunes:duration>01:16:11</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week, Bibic and John sat down with Miles Patterson from FanSociety. Miles is developing a project which attempts to connect music artists with their fans directly, rather than involving other middlemen as is so common today.</p>
 <p>FanSociety is both a crowdfunding initiative which operates transparently and a decentralized infrastructure which can be used to discover and share new artists. A structure in which artist health and sustainability is in mind from the start, rather than record producers or streaming services, is an excellent application of public blockchain technology and we’re excited to see independent creators succeed.</p>
         <br />
@@ -1442,13 +1376,11 @@
   </item>
     
 <item>
-      <title>#30 - Open Source Incentives With Anuhya From Stellar Community Fund</title>
+      <title>#30 - Open Source Incentives (w/ Anuhya from Stellar Community Fund)</title>
       <pubDate>Wed, 29 May 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeigc3gffkoqg7lxt5zndx7texcxopw2tz4qkp4zz4da3i2k2zo6zeq.ipfs.dweb.link?filename=Taking%20Stock%20Ep30%20-%202024-05-29%20Open%20Source%20Incentives%20with%20Anuhya%20from%20Stellar%20Community%20Fund_Mixed.mp3" type="audio/mpeg" length="73663952" />
-      <guid isPermaLink="true">https://bafybeigc3gffkoqg7lxt5zndx7texcxopw2tz4qkp4zz4da3i2k2zo6zeq.ipfs.dweb.link?filename=Taking%20Stock%20Ep30%20-%202024-05-29%20Open%20Source%20Incentives%20with%20Anuhya%20from%20Stellar%20Community%20Fund_Mixed.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep30/5-29-2024.mp3" type="audio/mpeg" length="73663952" />
+      <guid isPermaLink="false">Taking-Stock-ep30</guid>
       <itunes:duration>01:09:27</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week, Bibic and John sat down with Anuhya Challagundla from the Stellar Community Fund. Anuhya is an open source veteran of the tech industry, and is now working directly with to develop community incentives. build cohesion and encourage growth.</p>
 <p>Whether you are unfamiliar with open source technology or already engaged in a project, this conversation will get you excited about what is possible when a diverse network of passionate individuals can achieve.</p>
         <br />
@@ -1478,11 +1410,9 @@
 <item>
       <title>#29 - Open Source and Transparency</title>
       <pubDate>Wed, 22 May 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiew6afjvopwbacvq7futpptpu5en64nslgeavnnb4erfx2scneehm.ipfs.dweb.link?filename=Taking%20Stock%20Ep29%20-%202024-05-22%20Open%20Source%20and%20Transparency.mp3" type="audio/mpeg" length="94595920" />
-      <guid isPermaLink="true">https://bafybeiew6afjvopwbacvq7futpptpu5en64nslgeavnnb4erfx2scneehm.ipfs.dweb.link?filename=Taking%20Stock%20Ep29%20-%202024-05-22%20Open%20Source%20and%20Transparency.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep29/5-22-2024.mp3" type="audio/mpeg" length="94595920" />
+      <guid isPermaLink="false">Taking-Stock-ep29</guid>
       <itunes:duration>02:23:00</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives discusses some of the ways that we could see transparency improve not only in the markets but in general advocacy parameters.</p>
 <p>There are levels to transparency - either of participants to regulators, to participants sharing to all other participants. We'll talk a bit about CAT, about the OCC rules up for comment, and about WhyDRS's future plans to advocate for transparency in the market space.</p>
         <br />
@@ -1502,13 +1432,11 @@
 <item>
       <title>#28 - Future of WhyDRS and the Ownership Advocacy Mission</title>
       <pubDate>Wed, 01 May 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeifgcsqjuklagol6ueyzokbugjw2wkcqnmkuolknb7ay7bp5cceyma.ipfs.dweb.link?filename=Taking%20Stock%20Ep28%20%E2%80%93%202024-05-01%20Future%20of%20WhyDRS%20and%20the%20ownership%20advocacy%20mission.mp3" type="audio/mpeg" length="94171160" />
-      <guid isPermaLink="true">https://bafybeifgcsqjuklagol6ueyzokbugjw2wkcqnmkuolknb7ay7bp5cceyma.ipfs.dweb.link?filename=Taking%20Stock%20Ep28%20%E2%80%93%202024-05-01%20Future%20of%20WhyDRS%20and%20the%20ownership%20advocacy%20mission.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep28/5-1-2024.mp3" type="audio/mpeg" length="94171160" />
+      <guid isPermaLink="false">Taking-Stock-ep28</guid>
       <itunes:duration>01:43:12</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives was joined by John Wooten and together they welcomed open commentary from the community as they discussed the broader aims of WhyDRS and how best to actuate them. The intention to register as a non-profit 501c3 was discussed for the first time, and how that would help realize more potential for ownership advocacy to advance itself. Investors and issuers are self interested to seek a higher ratio of ownership, and the differences between communities are imagined walls. So much more can be accomplished through collective action and drive towards the development of a new market structure, of investors and for investors.</p>
-<p>It is a vision that regards the financial empowerment of individuals not as a means to generate profit but as an end in itself. This perspective is inspired by the belief that true progress in financial democratization can only be achieved when the primary motive is the collective welfare of the community rather than individual or corporate gain.</p>
+<p>It is a vision that regards the financial empowerment of individuals not as a means to generate profit but as an end in itself. This perspective is inspired by the belief that false progress in financial democratization can only be achieved when the primary motive is the collective welfare of the community rather than individual or corporate gain.</p>
 <p>This was just the first time broaching this topic, and we’re looking forward to bringing more people and more investor groups into the conversation.</p>
         <br />
 <p>Twitter/X Link:</p>
@@ -1539,11 +1467,9 @@
 <item>
       <title>#27 - Issuer Recognition of Naked Short Selling</title>
       <pubDate>Wed, 24 Apr 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeidi2vh3xyakwuh76752zx2ucmukzmtw4m7dawo3xeukicam2jbhnu.ipfs.dweb.link?filename=Taking%20Stock%20Ep27%20-%202024-04-24%20Issuer%20Recognition%20of%20Naked%20Short%20Selling.mp3" type="audio/mpeg" length="49317016" />
-      <guid isPermaLink="true">https://bafybeidi2vh3xyakwuh76752zx2ucmukzmtw4m7dawo3xeukicam2jbhnu.ipfs.dweb.link?filename=Taking%20Stock%20Ep27%20-%202024-04-24%20Issuer%20Recognition%20of%20Naked%20Short%20Selling.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep27/4-24-2024.mp3" type="audio/mpeg" length="49317016" />
+      <guid isPermaLink="false">Taking-Stock-ep27</guid>
       <itunes:duration>01:08:02</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives and 6days discussed some of the developing narratives in the ownership space. Billionaire attention has started to levy more towards short selling and market fairness, and specifically, Truth Social’s CEO has been bringing attention to the potential market abuse from market makers and encouraging shareholders to move shares to the transfer agent to hold in direct registration.</p>
 <p>At time of recording, they had released an 8K drawing attention to an update to their FAQ asking shareholders concerned with short selling to hold shares through the transfer agent. A few days later after this recording, they updated the FAQ page again to include the phrase DRS as well.</p>
         <br />
@@ -1581,11 +1507,9 @@
 <item>
       <title>#26 - Keep Digging! Asking for Answers From Computershare</title>
       <pubDate>Wed, 03 Apr 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibmipw2gkizogj4c6z5galvwfamb3mucynb3zflbj64x562nmutwa.ipfs.dweb.link?filename=Taking%20Stock%20ep26%20-%202024-04-03%20Keep%20Digging!%20Asking%20for%20Answers%20from%20Computershare.mp3" type="audio/mpeg" length="75858272" />
-      <guid isPermaLink="true">https://bafybeibmipw2gkizogj4c6z5galvwfamb3mucynb3zflbj64x562nmutwa.ipfs.dweb.link?filename=Taking%20Stock%20ep26%20-%202024-04-03%20Keep%20Digging!%20Asking%20for%20Answers%20from%20Computershare.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep26/4-3-2024.mp3" type="audio/mpeg" length="75858272" />
+      <guid isPermaLink="false">Taking-Stock-ep26</guid>
       <itunes:duration>01:25:48</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives was joined by 6days1week to talk in more detail about the community-gathered questions sent over to Computershare. A few days before the time of recording, the WhyDRS team was asked by Paul Conn to narrow the questions down. Chives and 6days discuss six of the questions that they found most important, and some of the possible answers to expect.</p>
 <p>In the show notes below the original set of questions plus the refined smaller list of questions will be linked.</p>
         <br />
@@ -1612,11 +1536,9 @@
 <item>
       <title>#25 - Annual Filing Requirements, and What's a Record Holder?</title>
       <pubDate>Wed, 13 Mar 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeicuijpd64kf3wf7x5ugtloz7mnyzte5iussn7nbxg2p7bedi2ujfu.ipfs.dweb.link?filename=Taking%20Stock%20ep25%20-%202024-03-13%20Annual%20Filing%20Requirements%2C%20and%20What's%20a%20Record%20Holder.mp3" type="audio/mpeg" length="57118232" />
-      <guid isPermaLink="true">https://bafybeicuijpd64kf3wf7x5ugtloz7mnyzte5iussn7nbxg2p7bedi2ujfu.ipfs.dweb.link?filename=Taking%20Stock%20ep25%20-%202024-03-13%20Annual%20Filing%20Requirements%2C%20and%20What's%20a%20Record%20Holder.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep25/3-13-2024.mp3" type="audio/mpeg" length="57118232" />
+      <guid isPermaLink="false">Taking-Stock-ep25</guid>
       <itunes:duration>01:05:50</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives was joined by Lawson and 6days to discuss the idea of a record holder and what sort of requirements existed for annual reports such as the 10K. This topic came up because GameStop’s 2023 10K had recently released and the record holder information was missing.</p>
 <p>We reviewed the language and predicted we’d have to see an amendment within about 40 days – but as luck would have it, later in the evening after recording, the amendment was filed. Still a great conversation! Check the links below for relevant legal citation.</p>
         <br />
@@ -1643,11 +1565,9 @@
 <item>
       <title>#24 - Tracking Direct Plan Purchases Through Computershare</title>
       <pubDate>Wed, 06 Mar 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibuotfnfew6vmeebn76wuhkp3yv64ttppyw2gelercrvcph2kzzuq.ipfs.dweb.link?filename=Taking%20Stock%20Ep24%20-%202024-03-06%20Tracking%20Direct%20Plan%20Purchases%20through%20Computershare.mp3" type="audio/mpeg" length="79796384" />
-      <guid isPermaLink="true">https://bafybeibuotfnfew6vmeebn76wuhkp3yv64ttppyw2gelercrvcph2kzzuq.ipfs.dweb.link?filename=Taking%20Stock%20Ep24%20-%202024-03-06%20Tracking%20Direct%20Plan%20Purchases%20through%20Computershare.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep24/3-6-2024.mp3" type="audio/mpeg" length="79796384" />
+      <guid isPermaLink="false">Taking-Stock-ep24</guid>
       <itunes:duration>01:37:27</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives was joined by 6days1week to talk about his efforts to track direct plan purchases made through Computershare. Investors have the option to buy directly through the transfer agent and can even set up recurring automatic buys to continue accumulating shares of companies they support.</p>
 <p>These purchases are executed in bulk at the market on a predictable schedule, a framework which could result in less than ideal outcomes for investors in terms of shares received per dollar invested. 6Days prepared some screenshots and graphs to assist in the conversation which are linked in the notes below.</p>
         <br />
@@ -1683,11 +1603,9 @@
 <item>
       <title>#23 - NYCB and Banking System</title>
       <pubDate>Wed, 28 Feb 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiamlvcntfckir7qwnpdhj6wkkcdo5ghsbvlcrs2mynz4lyoaxy67a.ipfs.dweb.link?filename=Taking%20Stock%20Ep23%20-%202024-02-28%20NYCB%20and%20Banking%20System.mp3" type="audio/mpeg" length="51144608" />
-      <guid isPermaLink="true">https://bafybeiamlvcntfckir7qwnpdhj6wkkcdo5ghsbvlcrs2mynz4lyoaxy67a.ipfs.dweb.link?filename=Taking%20Stock%20Ep23%20-%202024-02-28%20NYCB%20and%20Banking%20System.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep23/2-28-2024.mp3" type="audio/mpeg" length="51144608" />
+      <guid isPermaLink="false">Taking-Stock-ep23</guid>
       <itunes:duration>56:24</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives was joined by Hoose to talk about the term meme stocks, GameStop’s credit card provided through Comenity bank, the banking sector at large, JPMorgan Chase’s plurality of customer deposits, and NYC Bancorp’s needing to be rescued by private equity.</p>
 <p>Many sources to be found at the bottom of the show notes today.</p>
         <br />
@@ -1728,12 +1646,10 @@
     
 <item>
       <title>#22 - Open Community Discussion Part 2</title>
-      <pubDate>Wed, 21 Feb 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeian5ls7q3cfxlpn5uurrisnrsu3yqalkl2dvruht6f5hn7vhwr3xq.ipfs.dweb.link?filename=Taking%20Stock%20Ep22%20-%202024-02-21%20Open%20Community%20Discussion%20Pt%202.mp3" type="audio/mpeg" length="58664192" />
-      <guid isPermaLink="true">https://bafybeian5ls7q3cfxlpn5uurrisnrsu3yqalkl2dvruht6f5hn7vhwr3xq.ipfs.dweb.link?filename=Taking%20Stock%20Ep22%20-%202024-02-21%20Open%20Community%20Discussion%20Pt%202.mp3</guid>
+      <pubDate>Wed, 21 Feb 2024 21:00:01 GMT</pubDate>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep22/2-21-2024.mp3" type="audio/mpeg" length="58664192" />
+      <guid isPermaLink="false">Taking-Stock-ep22</guid>
       <itunes:duration>01:14:40</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock we continue the discussion from last week where community members joined and brought up any subject they liked. In this half, crypto and other scarce assets were discussed. John Wooten joined us to talk about his appearance at a recent crypto panel on the subject of investor protections, Chives shared his experience on early crypto lending platforms prior to regulatory oversight, and the group discussed how we can take advantage of new technology while also taking advantage of the century of regulation which can provide needed assistance to retail investors in a market of lopsided influence.</p>
         <p>TornadoCash and government regulation of open source technologies was also discussed, along with the for and against cases, and lastly John Wooten shared his perspective on the importance of having a central body which would be able to audit trading activity on a blockchain network to add to the discussion around financial regulations.</p>
 <br />
@@ -1753,11 +1669,9 @@
 <item>
       <title>#21 - Open Community Discussion Part 1</title>
       <pubDate>Wed, 21 Feb 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeih6wzy5dyruciuwxwulndyty3e7h3cgx63tzpc42bfcgdkfkgcasi.ipfs.dweb.link?filename=Taking%20Stock%20Ep21%20-%202024-02-21%20Open%20Community%20Discussion%20Pt%201.mp3" type="audio/mpeg" length="45359288" />
-      <guid isPermaLink="true">https://bafybeih6wzy5dyruciuwxwulndyty3e7h3cgx63tzpc42bfcgdkfkgcasi.ipfs.dweb.link?filename=Taking%20Stock%20Ep21%20-%202024-02-21%20Open%20Community%20Discussion%20Pt%201.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep21/2-21-2024.mp3" type="audio/mpeg" length="45359288" />
+      <guid isPermaLink="false">Taking-Stock-ep21</guid>
       <itunes:duration>55:01</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock we welcomed people from the community to take advantage of the open structure of X spaces and join in to discuss whatever they would like. Topics discussed in this episode included FOIA, volume around earnings, Form 4s, and the concept of a Megacorp.</p>
         <p>The discussion continued on past the 1 hour mark and so we’ve split it in half, so check out the rest in episode 22!</p>
 <br />
@@ -1777,11 +1691,9 @@
 <item>
       <title>#20 - DRS Memory Lane</title>
       <pubDate>Wed, 14 Feb 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeihfj3hhvp2t43ppk3a4fl2k5ppsf5jo5smfzhyxwo5mxrnd6jwlfe.ipfs.dweb.link?filename=Taking%20Stock%20Ep20%20-%202024-02-14%20A%20Walk%20Down%20DRS%20Memory%20Lane.mp3" type="audio/mpeg" length="85924160" />
-      <guid isPermaLink="true">https://bafybeihfj3hhvp2t43ppk3a4fl2k5ppsf5jo5smfzhyxwo5mxrnd6jwlfe.ipfs.dweb.link?filename=Taking%20Stock%20Ep20%20-%202024-02-14%20A%20Walk%20Down%20DRS%20Memory%20Lane.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep20/2-14-2024.mp3" type="audio/mpeg" length="85924160" />
+      <guid isPermaLink="false">Taking-Stock-ep20</guid>
       <itunes:duration>01:32:00</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week in recognition of the Valentine’s Day holiday, Bibic and Chives looked back at the history of the DRS advocacy efforts they have been part of these last two years.</p>
         <p>From DRSGME’s launch and ad campaigns to WhyDRS and meeting with Chairman Gary Gensler of the SEC it has been an incredible journey – and while we may spend this episode together looking back, every other day is spent looking forward.</p>
 <br />
@@ -1811,11 +1723,9 @@
 <item>
       <title>#19 - A History of Market Crashes</title>
       <pubDate>Wed, 7 Feb 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeietssiqng5dordtccpnwcw7i63j6t5mohewz3jv4oe7t4apsyb2om.ipfs.dweb.link?filename=Taking%20Stock%20Ep19%20-%202024-02-07%20A%20History%20of%20Market%20Bubbles%20and%20Crashes.mp3" type="audio/mpeg" length="58289408" />
-      <guid isPermaLink="true">https://bafybeietssiqng5dordtccpnwcw7i63j6t5mohewz3jv4oe7t4apsyb2om.ipfs.dweb.link?filename=Taking%20Stock%20Ep19%20-%202024-02-07%20A%20History%20of%20Market%20Bubbles%20and%20Crashes.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep19/2-7-2024.mp3" type="audio/mpeg" length="58289408" />
+      <guid isPermaLink="false">Taking-Stock-ep19</guid>
       <itunes:duration>01:04:26</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Bibic and Chives reviewed the history of major financial panics, crashes and bubbles. Across the history of modern financial markets we have witnessed these recurrent events borne from speculation and hubris within the market – but are they all so simple?</p>
 <br />
 <p>Twitter/X Link:</p>
@@ -1844,11 +1754,9 @@
 <item>
       <title>#18 - The Troubles of Centralization in Markets</title>
       <pubDate>Wed, 31 Jan 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibnhpfmxjvc23wrar2ha2sovds742n7x6il34w74cgkd4uzy2kpni.ipfs.dweb.link?filename=Taking%20Stock%20Ep18%20-%202024-01-31%20The%20Troubles%20of%20Centralization%20in%20Markets.mp3" type="audio/mpeg" length="41306720" />
-      <guid isPermaLink="true">https://bafybeibnhpfmxjvc23wrar2ha2sovds742n7x6il34w74cgkd4uzy2kpni.ipfs.dweb.link?filename=Taking%20Stock%20Ep18%20-%202024-01-31%20The%20Troubles%20of%20Centralization%20in%20Markets.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep18/1-31-2024.mp3" type="audio/mpeg" length="41306720" />
+      <guid isPermaLink="false">Taking-Stock-ep18</guid>
       <itunes:duration>45:49</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>After last weeks All About Plan discussion, the conversation ended up continuing into our community segment where friend of the show John Wooten called in to expound on the broader issues which centralization of power and responsibility in the market have caused.</p>
         <p>We’re releasing this segment as a standalone episode because while it was not directly related to the main topic it absolutely was a great conversation worth sharing with our audience.</p>
 <br />
@@ -1868,11 +1776,9 @@
 <item>
       <title>#17 - All About Investment Plans; DSPPs, DRIPs, ESOPs and More!</title>
       <pubDate>Wed, 24 Jan 2024 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeidwq3ekjtaqqmtlkylhrci2o3l4c6cuo5cyis5aivuh47qqfymrwy.ipfs.dweb.link?filename=Taking%20Stock%20Ep17%20-%202024-01-31%20All%20About%20Plans.mp3" type="audio/mpeg" length="79221680" />
-      <guid isPermaLink="true">https://bafybeidwq3ekjtaqqmtlkylhrci2o3l4c6cuo5cyis5aivuh47qqfymrwy.ipfs.dweb.link?filename=Taking%20Stock%20Ep17%20-%202024-01-31%20All%20About%20Plans.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2024/ep17/1-24-2024.mp3" type="audio/mpeg" length="79221680" />
+      <guid isPermaLink="false">Taking-Stock-ep17</guid>
       <itunes:duration>01:32:42</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Bibic and Chives were joined by Peruvian Bull, Lawson and 6days1week for an overview of the variety and types of investment plans commonly found in the market today. We pack in the information and were absolutely delighted to have some fellow enthusiasts on the panel.</p>
 <br />
 <p>Twitter/X Link:</p>
@@ -1918,11 +1824,9 @@
 <item>
       <title>#16 - John Wooten, Founder of BlockTransfer</title>
       <pubDate>Wed, 13 Dec 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeidks6q3yckzwxk3bhla3ayxxou2vudj25sxo7jvr67amt6itb5cmi.ipfs.dweb.link?filename=Taking%20Stock%20Ep16%20-%202023-12-13%20John%20Wooten%20of%20BlockTransfer.mp3" type="audio/mpeg" length="156509264" />
-      <guid isPermaLink="true">https://bafybeidks6q3yckzwxk3bhla3ayxxou2vudj25sxo7jvr67amt6itb5cmi.ipfs.dweb.link?filename=Taking%20Stock%20Ep16%20-%202023-12-13%20John%20Wooten%20of%20BlockTransfer.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep16/12-13-2023.mp3" type="audio/mpeg" length="156509264" />
+      <guid isPermaLink="false">Taking-Stock-ep16</guid>
       <itunes:duration>02:17:10</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives sits down for a full one on one interview with John Wooten. John is a published author, has a series of financial education videos online, and founded BlockTransfer. BlockTransfer is an SEC approved Transfer Agent using a public blockchain called Stellar to track issuer ledgers and investor ownership.</p>
 <p>Chives and John talk broadly about the various major issues which plague the modern capital markets, how a perverse incentive system separates working people from their wealth, and the archaic financial tradition which hasn’t undergone major rethinking in thousands of years. This conversation is a whirlwind and you won’t want to miss it.</p>
 <br />
@@ -1958,11 +1862,9 @@
 <item>
       <title>#15 - History of DRS and Book Entry Holding + Cede-ing Ownership</title>
       <pubDate>Wed, 22 Nov 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeidipgvqc27r4d47srb7zml4ohmv47fd2hvkxugkgrofkfkpwii5ga.ipfs.dweb.link?filename=Taking%20Stock%20Ep15%20-%202023-11-22%20History%20of%20DRS%20and%20Book%20Entry%20Holding%20%2B%20Cede-ing%20Ownership.mp3" type="audio/mpeg" length="75898544" />
-      <guid isPermaLink="true">https://bafybeidipgvqc27r4d47srb7zml4ohmv47fd2hvkxugkgrofkfkpwii5ga.ipfs.dweb.link?filename=Taking%20Stock%20Ep15%20-%202023-11-22%20History%20of%20DRS%20and%20Book%20Entry%20Holding%20%2B%20Cede-ing%20Ownership.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep15/11-22-2023.mp3" type="audio/mpeg" length="75898544" />
+      <guid isPermaLink="false">Taking-Stock-ep15</guid>
       <itunes:duration>01:08:30</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives and Bibic wrap up this historical miniseries by examining how the vision of the DTC came to fruition and how it impacted the markets at large and how it impacted every day working people. Beneficial ownership has been forced onto everyday investors. The SEC says it’s a choice, but when was the last time DRS was offered to you when investing in a company?</p>
 <p>Dematerialization and the transition to book-entry (otherwise known as an electronic record) are discussed, alongside the introduction of a new character in the story - The Direct Registration System.</p>
 <br />
@@ -1993,13 +1895,11 @@
   </item>
     
 <item>
-      <title>#14 - The Birth of The Depository Trust With Surprise Guest John Wooten of BlockTransfer</title>
+      <title>#14 - The Birth of The Depository Trust (w/ Surprise Guest John Wooten of BlockTransfer)</title>
       <pubDate>Wed, 15 Nov 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibkcbpcokt42p4vc2ls6evoddjjubemgdlhyovxwg27byhirrwq6q.ipfs.dweb.link?filename=Taking%20Stock%20Ep14%20-%202023-11-15%20Birth%20of%20the%20DTC%20with%20Surprise%20Guest%20John%20Wooten%20of%20BlockTransfer.mp3" type="audio/mpeg" length="115677824" />
-      <guid isPermaLink="true">https://bafybeibkcbpcokt42p4vc2ls6evoddjjubemgdlhyovxwg27byhirrwq6q.ipfs.dweb.link?filename=Taking%20Stock%20Ep14%20-%202023-11-15%20Birth%20of%20the%20DTC%20with%20Surprise%20Guest%20John%20Wooten%20of%20BlockTransfer.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep14/11-15-2023.mp3" type="audio/mpeg" length="115677824" />
+      <guid isPermaLink="false">Taking-Stock-ep14</guid>
       <itunes:duration>01:37:06</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives and Bibic continue looking back in time, but this week it's to The Great Paperwork Crisis of 1968, which led to the rationalization and birth of The Depository Trust (AKA The DTC). We look at why it made sense for the time, but how it is severely outdated today, and the impact that has on markets.</p>
 <p>We also had a surprise special guest join us. John Wooten of BlockTransfer, the first blockchain based transfer agent. We spoke to John about the ins and outs of how a blockchain based transfer agent works as well as a current SEC proposal that will enable API access to Edgar filings. This kind of access will allow developers to create apps to not only help with searching through the Edgar system, but to help make the filings as well.</p>
 <br />
@@ -2036,11 +1936,9 @@
 <item>
       <title>#13 - The Birth of The Federal Reserve</title>
       <pubDate>Wed, 08 Nov 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeiabmszhhvs6yq34sarncpuqg6gu7j2rj3sofvt6daom63rvnffixe.ipfs.dweb.link?filename=Taking%20Stock%20Ep13%20-%202023-11-08%20Panic%20of%201907%20and%20Birth%20of%20the%20Federal%20Reserve.mp3" type="audio/mpeg" length="52401994" />
-      <guid isPermaLink="true">https://bafybeiabmszhhvs6yq34sarncpuqg6gu7j2rj3sofvt6daom63rvnffixe.ipfs.dweb.link?filename=Taking%20Stock%20Ep13%20-%202023-11-08%20Panic%20of%201907%20and%20Birth%20of%20the%20Federal%20Reserve.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep13/11-8-2023.mp3" type="audio/mpeg" length="52401994" />
+      <guid isPermaLink="false">Taking-Stock-ep13</guid>
       <itunes:duration>01:04:50</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives and Bibic take a trip back in time to the panic of 1907. A panic caused by wealthy people over leveraging themselves, leading to the public trying to take their money back from their respective banks. The same wealthy people that caused the panic decided they needed to protect themselves from future potential bank runs, this led to the creation of the Federal Reserve.</p>
 <br />
 <p>Twitter/X Link:</p>
@@ -2072,11 +1970,9 @@
 <item>
       <title>#12 - DRSing From Around The World</title>
       <pubDate>Wed, 01 Nov 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibh7unbblawgp7wsknidhzojk7mfrfcsoypcvnzqqk6rpxeiezoxq.ipfs.dweb.link?filename=Taking%20Stock%20Ep12%20-%202023-11-01%20DRS%20from%20Around%20the%20World.mp3" type="audio/mpeg" length="80747384" />
-      <guid isPermaLink="true">https://bafybeibh7unbblawgp7wsknidhzojk7mfrfcsoypcvnzqqk6rpxeiezoxq.ipfs.dweb.link?filename=Taking%20Stock%20Ep12%20-%202023-11-01%20DRS%20from%20Around%20the%20World.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep12/11-1-2023.mp3" type="audio/mpeg" length="80747384" />
+      <guid isPermaLink="false">Taking-Stock-ep12</guid>
       <itunes:duration>01:13:10</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives and Bibic dive into the various methods and fees to DRS transfer from brokers around the world. Using the information gathered for the 140+ broker guides Bibic has worked on over the past couple of years, many differences and similarities were able to be drawn upon.</p>
 <p>If your broker has not been covered by our resources, please reach out and we will be happy to help you through the process.</p>
 <br />
@@ -2109,11 +2005,9 @@
 <item>
       <title>#11 - All About Ownership Part 2: The Links of Ownership</title>
       <pubDate>Wed, 25 Oct 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeierhpyttoils2hubshfwg63a6bdjghtyd3wgtf7qo35rzoxnmm3xy.ipfs.dweb.link?filename=Taking%20Stock%20Ep11%20-%202023-10-25%20Links%20of%20Ownership.mp3" type="audio/mpeg" length="59987512" />
-      <guid isPermaLink="true">https://bafybeierhpyttoils2hubshfwg63a6bdjghtyd3wgtf7qo35rzoxnmm3xy.ipfs.dweb.link?filename=Taking%20Stock%20Ep11%20-%202023-10-25%20Links%20of%20Ownership.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep11/10-25-2023.mp3" type="audio/mpeg" length="59987512" />
+      <guid isPermaLink="false">Taking-Stock-ep11</guid>
       <itunes:duration>54:59</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives and Bibic follow up from last week’s SEC bulletin breakdown with a handy diagram that visualises the 3 different forms of digital shareholdings, and the various forms of ownership associated with them.</p>
 <p>It’s important to learn what distinguishes each form of holdings as well as each form of ownership from each other. For example, being a beneficial owner, and a registered owner isn’t mutually exclusive. You can actually be both at the same time. Listen along or check out the links of ownership page linked below for more information.</p>
 <br />
@@ -2146,11 +2040,9 @@
 <item>
       <title>#10 - All About Ownership Part 1: The SEC/FINRA Bulletin</title>
       <pubDate>Wed, 18 Oct 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeihaixq4zx3o6ma7ffamqfccod562wtgnyn5l2cyaerhny3oqx7ski.ipfs.dweb.link?filename=Taking%20Stock%20Ep10%20-%202023-10-18%20All%20About%20Ownership!%20The%20SEC%20FINRA%20Bulletin.mp3" type="audio/mpeg" length="67589032" />
-      <guid isPermaLink="true">https://bafybeihaixq4zx3o6ma7ffamqfccod562wtgnyn5l2cyaerhny3oqx7ski.ipfs.dweb.link?filename=Taking%20Stock%20Ep10%20-%202023-10-18%20All%20About%20Ownership!%20The%20SEC%20FINRA%20Bulletin.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep10/10-18-2023.mp3" type="audio/mpeg" length="67589032" />
+      <guid isPermaLink="false">Taking-Stock-ep10</guid>
       <itunes:duration>59:55</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives and Bibic are back after last weeks break with another spotlight episode on Ownership. There is so much nuance to straighten out in just a single word! We’ll be pulling out the sources so you all can follow along with our logic and conclusions. This conversation needs to be had - and needs to continue being had - in order for everyone to make the holding choice which is best for them.</p>
 <p>The regulatory agencies, self regulating organizations, and the transfer agents are all on the same page about the difference in ownership between Plan and DRS. Let’s get ourselves on that same page too!</p>
 <br />
@@ -2181,13 +2073,11 @@
   </item>
     
 <item>
-      <title>#9 - What is a Share? With jackofspades123 Part 2</title>
-      <pubDate>Wed, 27 Sep 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeigadzlplm7qtskes3hatnsjneyab23nfm37kvw2v63lwkbuveh55q.ipfs.dweb.link?filename=Taking%20Stock%20Ep9%20-%202023-10-4%20What%20is%20a%20Share%20with%20Jackofspades%20Continued.mp3" type="audio/mpeg" length="56445776" />
-      <guid isPermaLink="true">https://bafybeigadzlplm7qtskes3hatnsjneyab23nfm37kvw2v63lwkbuveh55q.ipfs.dweb.link?filename=Taking%20Stock%20Ep9%20-%202023-10-4%20What%20is%20a%20Share%20with%20Jackofspades%20Continued.mp3</guid>
+      <title>#9 - What is a Share? Part 2 (w/ jackofspades123)</title>
+      <pubDate>Wed, 27 Sep 2023 21:00:01 GMT</pubDate>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep9/9-27-2023.mp3" type="audio/mpeg" length="56445776" />
+      <guid isPermaLink="false">Taking-Stock-ep9</guid>
       <itunes:duration>55:24</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, we continued the conversation with Jack where we left off last week - how the separation of voting and economic rights can be realized by actors intentionally using market mechanics, and what downstream effects that can have on retail investors - including the tax implications on regular people from the largest participants in the market.</p>
 <br />
 <p>Itinerary:</p>
@@ -2247,13 +2137,11 @@
   </item>
     
     <item>
-      <title>#8 - What is a Share? With jackofspades123 Part 1</title>
+      <title>#8 - What is a Share? Part 1 (w/ jackofspades123)</title>
       <pubDate>Wed, 27 Sep 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibwp7fnxgxmy7h6ltiv76y2yle36rtnoihinstugttmzlzchxgp6y.ipfs.dweb.link?filename=Taking%20Stock%20Ep8%20-%202023-09-27%20What%20is%20a%20Share%20with%20Jackofspades.mp3" type="audio/mpeg" length="56246592" />
-      <guid isPermaLink="true">https://bafybeibwp7fnxgxmy7h6ltiv76y2yle36rtnoihinstugttmzlzchxgp6y.ipfs.dweb.link?filename=Taking%20Stock%20Ep8%20-%202023-09-27%20What%20is%20a%20Share%20with%20Jackofspades.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep8/9-27-2023.mp3" type="audio/mpeg" length="56246592" />
+      <guid isPermaLink="false">Taking-Stock-ep8</guid>
       <itunes:duration>54:34</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, we dove into the economic and voting rights which an investor is granted after purchase, and what assumptions investors make about those rights. jackofspades123 joined us for this deep dive, and we had a great conversation! Jack prepared some slides and sources - these slideshows are linked in the show notes.</p>
 <br />
 <p>Itinerary:</p>
@@ -2312,11 +2200,9 @@
     <item>
       <title>#7 - Talking With Bill Pulte and Kevin Malone</title>
       <pubDate>Wed, 20 Sep 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeigyv4iurvinw7o763z6pkwakjvj67obwyen56a7ekyts5qjr6cq54.ipfs.dweb.link?filename=Taking%20Stock%20Ep7%20-%202023-09-20%20Talking%20with%20Bill%20Pulte%20and%20Kevin%20Malone.mp3" type="audio/mpeg" length="84563352" />
-      <guid isPermaLink="true">https://bafybeigyv4iurvinw7o763z6pkwakjvj67obwyen56a7ekyts5qjr6cq54.ipfs.dweb.link?filename=Taking%20Stock%20Ep7%20-%202023-09-20%20Talking%20with%20Bill%20Pulte%20and%20Kevin%20Malone.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep7/9-20-2023.mp3" type="audio/mpeg" length="84563352" />
+      <guid isPermaLink="false">Taking-Stock-ep7</guid>
       <itunes:duration>1:24:54</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, hosts Lawson, Chives and Bibic were joined by Bill Pulte and Kevin Mallone in order to discuss a variety of pressing community topics. Bill and Kevin are two of the larger figures in our investing advocacy community and they shared their perspectives on dealing with online criticism, with seeking truth, with evaluating the SEC, and on the details of the Plan and Book designation distinctions. There was a lot of passion and a lot of wisdom on display here. It’s always great being able to have these discussions.</p>
 <br />
 <p>Itinerary:</p>
@@ -2360,11 +2246,9 @@
   <item>
       <title>#6 - The UK Proposal Trying To End Direct Registration</title>
       <pubDate>Wed, 13 Sep 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibulqrpl4tq3inruyztvoyq6xvkoqiojmty533wlywpsjagbprgge.ipfs.dweb.link?filename=Taking%20Stock%20Ep6%20-%202023-09-13%20The%20UK%20Proposal%20Trying%20To%20End%20Direct%20Registration.mp3" type="audio/mpeg" length="93407160" />
-      <guid isPermaLink="true">https://bafybeibulqrpl4tq3inruyztvoyq6xvkoqiojmty533wlywpsjagbprgge.ipfs.dweb.link?filename=Taking%20Stock%20Ep6%20-%202023-09-13%20The%20UK%20Proposal%20Trying%20To%20End%20Direct%20Registration.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep6/9-13-2023.mp3" type="audio/mpeg" length="93407160" />
+      <guid isPermaLink="false">Taking-Stock-ep6</guid>
       <itunes:duration>1:35:06</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives and Bibic dove into the recently announced UK Taskforce’s action proposal which seeks to explore feasible routes to full dematerialization of share certificates. Not all solutions are made equal, and the proposal’s favorite solution involves forcing investors to hold through a centralized depository’s nominee rather than holding for themselves and in their own name.</p>
 <p>We had a great guest speaker Bellweirboy who joined the call in order to help make sure listeners understood the current impact of the proposal as written, and encouraged collective action through parliament and direct democracy for all UK natives. For everyone else, online comments can be submitted until September 25th 2023.</p>
 <br />
@@ -2414,11 +2298,9 @@
     <item>
       <title>#5 - Stockholder Proposals</title>
       <pubDate>Wed, 23 Aug 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeid5d6y5wl6pay4ouzjwetx3ecwmxq4nw62smzpeb3k6ffz7n3mby4.ipfs.dweb.link?filename=Taking%20Stock%20Ep5%20-%202023-08-23%20Stockholder%20Proposals.mp3" type="audio/mpeg" length="63930552" />
-      <guid isPermaLink="true">https://bafybeid5d6y5wl6pay4ouzjwetx3ecwmxq4nw62smzpeb3k6ffz7n3mby4.ipfs.dweb.link?filename=Taking%20Stock%20Ep5%20-%202023-08-23%20Stockholder%20Proposals.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep5/8-23-2023.mp3" type="audio/mpeg" length="63930552" />
+      <guid isPermaLink="false">Taking-Stock-ep5</guid>
       <itunes:duration>55:30</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, Chives provided a spoken overview of the shareholder proposal process - how to check eligibility to submit, how to send your proposal, and what happens afterwards.</p>
 <p>This was a fantastic episode and we covered a ton of ground. There were also some great questions from the community following the overview. This is an evergreen episode and may be helpful every proposal season - and likely, we’ll revisit this topic in a few months closer to the collective 2024 deadline.</p>
 <br />
@@ -2459,11 +2341,9 @@
     <item>
       <title>#4 - Talking With 6days1week, Heat Lamp Author</title>
       <pubDate>Wed, 16 Aug 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibqhxqaoq7532bvxjbxuksl77repz2szi23667qavxa4klcfy457m.ipfs.dweb.link?filename=Taking%20Stock%20Ep4%20-%202023-08-16%20Talking%20with%206days1week%2C%20Heat%20Lamp%20author.mp3" type="audio/mpeg" length="99818592" />
-      <guid isPermaLink="true">https://bafybeibqhxqaoq7532bvxjbxuksl77repz2szi23667qavxa4klcfy457m.ipfs.dweb.link?filename=Taking%20Stock%20Ep4%20-%202023-08-16%20Talking%20with%206days1week%2C%20Heat%20Lamp%20author.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep4/8-16-2023.mp3" type="audio/mpeg" length="99818592" />
+      <guid isPermaLink="false">Taking-Stock-ep4</guid>
       <itunes:duration>1:39:18</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock there were some great discussions about autobuys, plan shares, and 606 Reports which allow for investors to access bulk trading data of which their orders are included. However, there were some internet issues and technical difficulties during the call - we’ve tried to fix as much of this in editing as possible for the mp3 download.
 
 During the call with 6days, we discussed 6 documents which he had supplied ahead of time. They are included under Links and Resources and numbered.</p>
@@ -2518,11 +2398,9 @@ During the call with 6days, we discussed 6 documents which he had supplied ahead
     <item>
       <title>#3 - Talking With Peruvian Bull</title>
       <pubDate>Wed, 9 Aug 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeihjxpach4kpqorcsnzdgncayg5csupwjx2l6hhln5fqkhxuo2ljeq.ipfs.dweb.link?filename=Taking%20Stock%20Ep3%20-%202023-08-09%20Talking%20with%20Peruvian%20Bull.mp3" type="audio/mpeg" length="80768400" />
-      <guid isPermaLink="true">https://bafybeihjxpach4kpqorcsnzdgncayg5csupwjx2l6hhln5fqkhxuo2ljeq.ipfs.dweb.link?filename=Taking%20Stock%20Ep3%20-%202023-08-09%20Talking%20with%20Peruvian%20Bull.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep3/8-9-2023.mp3" type="audio/mpeg" length="80768400" />
+      <guid isPermaLink="false">Taking-Stock-ep3</guid>
       <itunes:duration>1:19:30</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This weeks Taking Stock was really incredible. I’d highly recommend checking out the conversation with our hugely knowledgeable guest Peruvian Bull, which ranged from the beginnings of the DRS online movement to the birds eye and macro view on these wild economic time. Peruvian Bull has strong skill in breaking down complex concepts and providing key context to help understand each example, and we’ll look forward to speaking with him again in the future. There’s a ton of information packed into this show, and I can’t do it justice here. Check it out!
 
 The DRS team shared major updates to the WhyDRS.org advocacy resources in the Shareholder Proposal Guide and the WhyDRS database.</p>
@@ -2562,11 +2440,9 @@ The DRS team shared major updates to the WhyDRS.org advocacy resources in the Sh
     <item>
       <title>#2 - Talking With Kevin Malone</title>
       <pubDate>Wed, 2 Aug 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeifrilvkncu75kaq42xc54a4ecnpiqsr6gsggoe3lnx33jlnbor3py.ipfs.dweb.link?filename=Taking%20Stock%20Ep2%20-%202023-08-02%20Talking%20with%20Kevin%20Malone.mp3" type="audio/mpeg" length="93226224" />
-      <guid isPermaLink="true">https://bafybeifrilvkncu75kaq42xc54a4ecnpiqsr6gsggoe3lnx33jlnbor3py.ipfs.dweb.link?filename=Taking%20Stock%20Ep2%20-%202023-08-02%20Talking%20with%20Kevin%20Malone.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep2/ep2-8-2-2023.mp3" type="audio/mpeg" length="93226224" />
+      <guid isPermaLink="false">Taking-Stock-ep2</guid>
       <itunes:duration>1:30:13</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>This week on Taking Stock, we started off with a recap of some recent project and website updates from the DRS team including the WhyDRS Database and the GiveAshare spotlight page. After that, we welcomed Kevin Malone, CEO of Malone Wealth Ventures, a registered investment adviser. In the wake of Apex and Mainstar, Kevin has been investigating an alternative to potentially help clients direct register their shares without exposure to shaky custodians. Kevin talks about his experience so far with SEI, who may offer a service for registered investment advisers to maintain client assets in a segregated account and in their own names. The episode is closed with a group discussion about recent SEC and FINRA bulletins which introduce new and more explicit language about direct registration and about the distinction between plan designated holdings and book designated holdings. Which conclusions we can try to draw from them?</p>
 <br />
 <p>Itinerary:</p>
@@ -2606,11 +2482,9 @@ The DRS team shared major updates to the WhyDRS.org advocacy resources in the Sh
     <item>
       <title>#1 - Viewing a Stockholder List</title>
       <pubDate>Wed, 26 Jul 2023 21:00:00 GMT</pubDate>
-      <enclosure url="https://bafybeibtmiiik2jwhbv5xpvyllr5cvwley6sb2skg6psb3yr4b2ultl7p4.ipfs.dweb.link?filename=Taking%20Stock%20Ep1%20-%202023-07-26%20Viewing%20a%20Stockholder%20List.mp3" type="audio/mpeg" length="41310568" />
-      <guid isPermaLink="true">https://bafybeibtmiiik2jwhbv5xpvyllr5cvwley6sb2skg6psb3yr4b2ultl7p4.ipfs.dweb.link?filename=Taking%20Stock%20Ep1%20-%202023-07-26%20Viewing%20a%20Stockholder%20List.mp3</guid>
+      <enclosure url="https://ts.whydrs.org/episodes/2023/ep1/7-26-2023.mp3" type="audio/mpeg" length="41310568" />
+      <guid isPermaLink="false">Taking-Stock-ep1</guid>
       <itunes:duration>57:21</itunes:duration>
-      <author>hi@whydrs.org (WhyDRS)</author>
-      <category>Education</category>
       <description><![CDATA[<p>The first Taking Stock - covering the stockholder list and welcoming some great investors and DRS advocates.</p>
 <br />
 <p>Recorded as a Twitter Space on 26th July 2023.</p>
