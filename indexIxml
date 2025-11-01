@@ -117,11 +117,11 @@
          - Best practice: 3000x3000px square JPG/PNG, RGB, < 512 KB if possible.
          - The <image> block is classic RSS; harmless and sometimes shown on web UIs.
          ========================================================= -->
-    <itunes:image href="https://raw.githubusercontent.com/WhyDRS/Taking-Stock/refs/heads/main/img/Taking%20Stock%20Logo%203000.png" />
+    <itunes:image href="https://ts.whydrs.org/episodes/img/Taking_Stock_Logo_3000.png" />
     <image>
       <title>WhyDRS: Taking Stock</title>
       <link>https://www.whydrs.org/</link>
-      <url>https://raw.githubusercontent.com/WhyDRS/Taking-Stock/refs/heads/main/img/Taking%20Stock%20Logo%203000.png</url>
+      <url>https://ts.whydrs.org/episodes/img/Taking_Stock_Logo_3000.png</url>
     </image>
 
     <!-- =========================================================
